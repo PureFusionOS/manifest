@@ -16,6 +16,7 @@
            sync-j="4" />
 
   <!-- Pure Repo's -->
+  <project path="manifest" name="manifest" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
