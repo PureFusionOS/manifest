@@ -17,6 +17,7 @@
 
   <!-- Pure Repo's -->
   <project path="manifest" name="manifest" remote="pure" revision="n-mr2" />
+  <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
