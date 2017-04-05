@@ -29,6 +29,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -535,7 +536,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
