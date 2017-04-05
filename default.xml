@@ -22,6 +22,7 @@
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="n-mr2" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="manifest" name="manifest" remote="pure" revision="n-mr2" />
+  <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pure" revision="n-mr2" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="n-mr2" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="n-mr2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />
@@ -39,10 +40,12 @@
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="n-mr2" />
 
   <!-- Kernel Source -->
+  <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="n-mr2" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="n-mr2" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="n-mr2" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/google_devices" name="proprietary_vendor_google_devices" remote="pure" revision="n-mr2" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n-mr2" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
 
@@ -87,8 +90,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" />
