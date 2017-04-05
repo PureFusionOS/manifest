@@ -33,6 +33,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="n-mr2" />
+  <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
