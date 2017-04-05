@@ -29,6 +29,7 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="n-mr2" />
@@ -489,7 +490,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
