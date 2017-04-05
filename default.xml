@@ -23,6 +23,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr2" />
   <project path="manifest" name="manifest" remote="pure" revision="n-mr2" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="n-mr2" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="n-mr2" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr2" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
@@ -39,9 +40,11 @@
 
   <!-- Kernel Source -->
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="pure" revision="n-mr2" />
+  <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead,pdk" remote="pure" revision="n-mr2" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n-mr2" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="n-mr2" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -89,8 +92,6 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk,generic_fs,pdk" />
