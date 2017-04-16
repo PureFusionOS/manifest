@@ -37,6 +37,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="pure" revision="n-mr2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" remote="pure" revision="n-mr2" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
@@ -448,7 +449,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
