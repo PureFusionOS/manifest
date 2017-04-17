@@ -37,6 +37,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="pure" revision="n-mr2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
+  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="pure" revision="n-mr2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" remote="pure" revision="n-mr2" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
