@@ -37,6 +37,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="pure" revision="n-mr2" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="pure" revision="n-mr2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="pure" revision="n-mr2" />
   <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" remote="pure" revision="n-mr2" />
@@ -433,7 +434,6 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
