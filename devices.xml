@@ -16,10 +16,16 @@
   <project path="device/lenovo/A6020" name="android_device_lenovo_A6020" remote="purenexus-mod" />
   <project path="kernel/lenovo/msm8916" name="LineageOS/android_kernel_lenovo_msm8916" remote="github" revision="cm-14.1" />
   
+   <!-- kipper -->
+  <project path="device/wileyfox/kipper" name="android_device_wileyfox_kipper" remote="purenexus-mod" />
+  <project path="kernel/cyanogen/msm8916" name="android_kernel_cyanogen_msm8916" remote="purenexus-mod" />
+  <project path="device/cyanogen/msm8916-common" name="mahmodayyash/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.0" />
+  
   <!-- Vendor/Blobs -->
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   <project path="vendor/lenovo" name="TheMuppets/proprietary_vendor_lenovo" remote="github" revision="cm-14.1" />
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="purenexus-mod" />
+  <project path="vendor/wileyfox" name="proprietary_vendor_wileyfox" remote="purenexus-mod" />
 
   <!-- Others dependencies -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
