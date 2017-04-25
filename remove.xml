@@ -73,4 +73,5 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/packages/apps/Nfc" />
 </manifest>

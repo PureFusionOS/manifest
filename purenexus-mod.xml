@@ -108,6 +108,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="purenexus-mod" />
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="purenexus-mod" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="purenexus-mod" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="purenexus-mod" />
 
   <!-- External -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="purenexus-mod" />
