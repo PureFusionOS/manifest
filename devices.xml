@@ -19,7 +19,7 @@
    <!-- kipper -->
   <project path="device/wileyfox/kipper" name="android_device_wileyfox_kipper" remote="purenexus-mod" />
   <project path="kernel/cyanogen/msm8916" name="android_kernel_cyanogen_msm8916" remote="purenexus-mod" />
-  <project path="device/cyanogen/msm8916-common" name="mahmodayyash/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.0" />
+  <project path="device/cyanogen/msm8916-common" name="p-sdev/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.0" />
   
   <!-- Vendor/Blobs -->
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
