@@ -16,7 +16,11 @@ Then to sync source, use this command:
 
 	repo sync
 
-After syncing is done, use these commands to build:
+After syncing is done, do one of the following to build:
+
+    bash build.sh --help
+
+OR
 
     1.) . build/envsetup.sh
     2.) brunch xxxx yyyy
