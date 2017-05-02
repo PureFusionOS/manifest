@@ -28,6 +28,6 @@
   <project path="vendor/wileyfox" name="proprietary_vendor_wileyfox" remote="purenexus-mod" />
 
   <!-- Others dependencies -->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" remote="github" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="purenexus-mod" />
 
 </manifest>
