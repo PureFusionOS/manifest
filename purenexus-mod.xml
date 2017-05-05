@@ -42,7 +42,7 @@
   <project path="system/extras" name="android_system_extras" remote="purenexus-mod" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="purenexus-mod" />
   <project path="system/vold" name="android_system_vold" remote="purenexus-mod" />
-  <project path="system/media" name="LineageOS/android_system_media" revision="cm-14.1" remote="github" />
+  <project path="system/media" name="android_system_media" remote="purenexus-mod" />
   <project path="system/netd" name="LineageOS/android_system_netd" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="cm-14.1" remote="github" />
 
@@ -109,6 +109,7 @@
   <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="purenexus-mod" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="purenexus-mod" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="purenexus-mod" />
+  <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="purenexus-mod" />
 
   <!-- External -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="purenexus-mod" />
