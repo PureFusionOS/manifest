@@ -22,8 +22,6 @@
   <remove-project name="android_frameworks_support" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_packages_apps_PureSettings" />
-  <remove-project name="android_packages_apps_PackageInstaller" />
-  <remove-project name="android_packages_providers_DownloadProvider" />
   <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_packages_services_Telecomm" />
   <remove-project name="android_packages_apps_MusicFX" />
