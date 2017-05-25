@@ -29,7 +29,7 @@
   <project path="development" name="android_development" remote="purenexus-mod" />
   <project path="libcore" name="android_libcore" remote="purenexus-mod" />
   <project path="vendor/gapps" name="pure_vendor_gapps" remote="gitlab-jhenrique09" clone-depth="1" />
-  <project path="vendor/pure" name="android_vendor_pure" remote="purenexus-mod" />
+  <project path="vendor/pure" name="android_vendor_pure" remote="puremod" revision="WIP" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="purenexus-mod" />
