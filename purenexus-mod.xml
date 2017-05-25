@@ -10,7 +10,7 @@
            fetch="https://github.com/PureNexusProjectMod/"
            revision="n-mr2" />
   <remote name="tabp0le"
-           fetch="https://gitlab.com/tabp0le/" />
+           fetch="https://github.com/tabp0le/" />
 
   <!-- PureNexusProject-Mod repos -->
   <project path="manifest" name="manifest" remote="purenexus-mod" />
