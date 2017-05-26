@@ -18,7 +18,6 @@
   <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="LineageOS" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc"  remote="LineageOS" revision="cm-14.1" />
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1" />
 
   <!-- PureNexusProject-Mod repos -->
   <project path="manifest" name="manifest" remote="puremod" />
