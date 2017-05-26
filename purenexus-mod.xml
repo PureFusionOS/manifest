@@ -11,9 +11,17 @@
            revision="n-mr2" />
   <remote name="tabp0le"
            fetch="https://github.com/tabp0le/" />
+  <remote name="LineageOS"
+           fetch="https://github.com/LineageOS/" />
+
+<!-- LineageOS repos (will be forked and removed in future -->
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="LineageOS" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc"  remote="LineageOS" revision="cm-14.1" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1" />
 
   <!-- PureNexusProject-Mod repos -->
-  <project path="manifest" name="manifest" remote="purenexus-mod" />
+  <project path="manifest" name="manifest" remote="puremod" />
   <project path="art" name="android_art" remote="purenexus-mod" />
   <project path="bionic" name="android_bionic" remote="purenexus-mod" />
   <project path="build" name="android_build" remote="purenexus-mod">
