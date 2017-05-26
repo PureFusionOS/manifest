@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="puremod"
+          fetch="https://github.com/PureNexusProjectMod/"
+          revision="n-mr2" />
+
+  <remote name="tabp0le"
+          fetch="https://github.com/tabp0le/" />
+
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS/"
+          revision="cm-14.1"  />
+
+  <remote name="OctopusParty"
+          fetch="https://github.com/OctopusParty/" />
+
+  <remote name="voxpopuli" 
+          fetch="https://github.com/EAS-Project"  />
+
+  <remote name="AOSNP"
+          fetch="https://github.com/AOSNP-CAF" />
+
+  <remote name="bb"
+          fetch="https://bitbucket.org/"
+          revision="refs/heads/master" />
+
+  <!-- LineageOS repos (will be forked and removed in future -->
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS"  />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="LineageOS"  />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc"  remote="LineageOS"  />
+
+  <!-- PureNexusMod (Our repos) -->
+  <project path="manifest" name="manifest" remote="puremod" />
+
+  <!-- System  -->
+  <project path="vendor/pure" name="android_vendor_pure" remote="puremod" revision="WIP" />  
+  <project path="system/core" name="android_system_core" remote="puremod" revision="WIP" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="puremod" revision="WIP" />
+  <project path="system/vold" name="android_system_vold" remote="puremod" revision="WIP" />
+
+  <!-- Apps -->
+  <project path="packages/apps/PureOTA" name="android_packages_apps_PureOTA" remote="puremod" revision="WIP" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="puremod" revision="WIP" /> 
+
+  <!-- NEW DEVICE TREE -->
+  <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n7x-pure-WIP" /> 
+  <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
+  <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
+  <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="tabp0le" revision="n7x-tabp0le-eas" /> 	
+
+  <!-- GCC UBER PREBUILTS -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="uberroms/aarch64-linux-android-7.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="uberroms/arm-linux-androideabi-7.x" remote="bb" />
+	
+  <!-- CLANG UBER PREBUILDS -->	
+  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/4.0" name="uberroms/clang_linux-x86_4.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+
+  <!-- SnapDragon Clang Compiler -->
+  <project name="snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="AOSNP" revision="master" />
+
+</manifest>

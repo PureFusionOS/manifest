@@ -542,4 +542,7 @@
   <!-- PureNexusProject-Mod repos -->
   <include name="purenexus-mod.xml" />
 
+  <!-- PureNexusProjectMod repos -->
+  <include name="puremod.xml" />
+
 </manifest>
