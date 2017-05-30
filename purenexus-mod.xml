@@ -10,9 +10,6 @@
   <!-- PureNexusProject-Mod repos -->
   <project path="art" name="android_art" remote="purenexus-mod" />
   <project path="bionic" name="android_bionic" remote="purenexus-mod" />
-  <project path="build" name="android_build" remote="purenexus-mod">
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="purenexus-mod" />
   <project path="build/kati" name="android_build_kati" remote="purenexus-mod" />
   <project path="build/soong" name="android_build_soong" remote="purenexus-mod" >
