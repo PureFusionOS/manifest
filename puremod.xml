@@ -47,7 +47,7 @@
   <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n7x-pure-WIP" /> 
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
-  <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="tabp0le" revision="n7x-tabp0le-eas" /> 	
+  <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
 
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
