@@ -36,7 +36,7 @@
   <!-- System  -->
   <project path="vendor/pure" name="android_vendor_pure" remote="puremod" revision="WIP" />  
   <project path="system/core" name="android_system_core" remote="puremod" revision="WIP" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="puremod" revision="WIP" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="puremod" revision="WIP-pure" />
   <project path="system/vold" name="android_system_vold" remote="puremod" revision="WIP" />
   <project path="build" name="android_build" remote="puremod" revision="WIP">
   <copyfile src="core/root.mk" dest="Makefile" />
