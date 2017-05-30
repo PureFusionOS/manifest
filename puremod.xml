@@ -47,7 +47,7 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="puremod" revision="WIP" /> 
 
   <!-- NEW DEVICE TREE -->
-  <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n7x-pure-WIP" /> 
+  <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="WIP-pure" /> 
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
   <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
