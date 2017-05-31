@@ -4,7 +4,7 @@
            fetch="https://github.com/PureNexusProject-Mod/"
            revision="n-mr2" />
   <remote name="gitlab-jhenrique09"
-           fetch="ssh://git@gitlab.com/jhenrique09/"
+           fetch="https://gitlab.com/jhenrique09/"
            revision="n-mr2" />
 
   <!-- PureNexusProject-Mod repos -->
