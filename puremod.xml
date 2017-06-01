@@ -67,7 +67,7 @@
   <project name="snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="AOSNP" revision="master" />
   
   <!-- Newer Clang Support -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" />
+<!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" /> -->
   <project path="external/clang" name="android_external_clang" remote="puremod" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="puremod" />
   <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="puremod" />
