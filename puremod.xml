@@ -42,6 +42,9 @@
   <project path="build" name="android_build" remote="puremod" revision="WIP">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  <!-- Frameworks -->
+   <project path="frameworks/rs" name="android_frameworks_rs" remote="puremod" revision="WIP" />
 
   <!-- Apps -->
   <project path="packages/apps/PureOTA" name="android_packages_apps_PureOTA" remote="puremod" revision="WIP" />

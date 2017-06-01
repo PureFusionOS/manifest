@@ -27,7 +27,6 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="purenexus-mod" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="purenexus-mod" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="purenexus-mod" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="purenexus-mod" />
   <project path="frameworks/support" name="android_frameworks_support" remote="purenexus-mod" />
 
   <!-- System -->
