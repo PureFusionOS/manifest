@@ -67,6 +67,9 @@
   <!-- SnapDragon Clang Compiler -->
   <project name="snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="AOSNP" revision="master" />
   
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
+  
   <!-- Newer Clang Support -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" revision="n-mr2" />
   <project path="external/clang" name="android_external_clang" remote="puremod" revision="WIP" />
