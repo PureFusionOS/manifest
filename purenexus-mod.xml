@@ -32,7 +32,6 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="purenexus-mod" />
-  <project path="system/extras" name="android_system_extras" remote="purenexus-mod"  />
   <project path="system/media" name="android_system_media" remote="purenexus-mod" />
   <project path="system/netd" name="LineageOS/android_system_netd" revision="cm-14.1" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="cm-14.1" remote="github" />
