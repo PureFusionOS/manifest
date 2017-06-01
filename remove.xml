@@ -34,6 +34,9 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/compiler-rt" />
+  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -75,4 +78,5 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/prebuilts/sdk" />
 </manifest>
