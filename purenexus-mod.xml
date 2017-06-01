@@ -16,7 +16,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="purenexus-mod" />
   <project path="development" name="android_development" remote="purenexus-mod" />
   <project path="libcore" name="android_libcore" remote="purenexus-mod" />
   <project path="vendor/gapps" name="pure_vendor_gapps" remote="gitlab-jhenrique09" clone-depth="1" />

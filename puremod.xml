@@ -67,13 +67,13 @@
   <project name="snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="AOSNP" revision="master" />
   
   <!-- Newer Clang Support -->
-<!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" /> -->
-  <project path="external/clang" name="android_external_clang" remote="puremod" />
-  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="puremod" />
-  <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="puremod" />
-  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="puremod" />
-  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="puremod" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="puremod" />
-  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="puremod" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" revision="WIP" />
+  <project path="external/clang" name="android_external_clang" remote="puremod" revision="WIP" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="puremod" revision="WIP" />
+  <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="puremod" revision="WIP" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="puremod" revision="WIP" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="puremod" revision="WIP" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="puremod" revision="WIP" />
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="puremod" revision="MASTER" />
 
 </manifest>
