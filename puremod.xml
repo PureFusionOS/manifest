@@ -32,6 +32,7 @@
 
   <!-- PureNexusMod (Our repos) -->
   <project path="manifest" name="manifest" remote="puremod" />
+  <project path="art" name="android_art" remote="puremod" revision="WIP" />
 
   <!-- System  -->
   <project path="vendor/pure" name="android_vendor_pure" remote="puremod" revision="WIP" />  

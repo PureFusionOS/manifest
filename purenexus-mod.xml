@@ -8,7 +8,6 @@
            revision="n-mr2" />
 
   <!-- PureNexusProject-Mod repos -->
-  <project path="art" name="android_art" remote="purenexus-mod" />
   <project path="bionic" name="android_bionic" remote="purenexus-mod" />
   <project path="build/blueprint" name="android_build_blueprint" remote="purenexus-mod" />
   <project path="build/kati" name="android_build_kati" remote="purenexus-mod" />
