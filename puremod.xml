@@ -70,10 +70,11 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
   
-  <!-- Newer Clang Support -->
+  <!-- Newer Clang Support --> android_external_libchrome
   <project path="bootable/recovery" name="android_bootable_recovery" remote="puremod" revision="n-mr2" />
   <project path="external/clang" name="android_external_clang" remote="puremod" revision="WIP" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="puremod" revision="WIP" />
+  <project path="external/libchrome" name="android_external_libchrome" remote="puremod" revision="WIP" />
   <project path="external/llvm" name="android_external_llvm" groups="pdk" remote="puremod" revision="WIP" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="puremod" revision="WIP" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="puremod" revision="WIP" />
