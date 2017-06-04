@@ -20,7 +20,6 @@
   <project path="vendor/gapps" name="pure_vendor_gapps" remote="gitlab-jhenrique09" clone-depth="1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="purenexus-mod" />
   <project path="frameworks/base" name="android_frameworks_base" remote="purenexus-mod" />
   <project path="frameworks/native" name="android_frameworks_native" remote="purenexus-mod" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="purenexus-mod" />

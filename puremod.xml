@@ -41,11 +41,12 @@
   </project>
   
   <!-- Frameworks -->
-   <project path="frameworks/rs" name="android_frameworks_rs" remote="puremod" revision="WIP" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="puremod" revision="WIP" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="puremod" revision="WIP" />
 
   <!-- Apps -->
   <project path="packages/apps/PureOTA" name="android_packages_apps_PureOTA" remote="puremod" revision="WIP" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="puremod" revision="WIP" /> 
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
 
   <!-- NEW DEVICE TREE -->
   <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="WIP-pure" /> 
