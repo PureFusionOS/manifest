@@ -1,0 +1,5 @@
+[gerrit]
+host=review.aosnp.com
+port=29418
+project=manifest.git
+defaultbranch=n-mr2
