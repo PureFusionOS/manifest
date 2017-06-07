@@ -3,7 +3,7 @@
 
   <remote name="puremod"
           fetch="https://github.com/PureNexusProjectMod/"
-          revision="n-mr2" />
+          review="review.aosnp.com" />
 
   <remote name="tabp0le"
           fetch="https://github.com/tabp0le/" />
@@ -27,7 +27,7 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
 
   <!-- PureNexusMod (Our repos) -->
-  <project path="manifest" name="manifest" remote="puremod" />
+  <project path="manifest" name="manifest" remote="puremod" revision="n-mr2" />
   <project path="art" name="android_art" remote="puremod" revision="WIP" />
 
   <!-- System  -->
