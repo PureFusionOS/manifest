@@ -43,3 +43,10 @@ Enjoy, Stick around for a while AOSP Building is Fun!!!
 [PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
 
 [PureNexusProject-Legacy](https://github.com/PureNexusProject-Legacy) Old Source and Reference code
+
+##### Contributing - Gerrit
+Please do not directly submit pull requests to our github. In order to contribute to our project, you will need to have a gerrit account on our server. Our official gerrit server resides at https://review.aosnp.com/.
+
+Instructions on submitting code for review can be found [here](https://review.aosnp.com/Documentation/user-upload.html)
+Instructions on submitting using the repo command can be found [here](https://source.android.com/source/using-repo) (recommended - must have full Android source tree synced)
+
