@@ -16,7 +16,7 @@
   <project path="system/extras" name="PureNexusProjectMod/android_system_extras" remote="puremod" revision="WIP" />
   <project path="system/sepolicy" name="PureNexusProjectMod/android_system_sepolicy" remote="puremod" revision="WIP-pure" />
   <project path="system/vold" name="PureNexusProjectMod/android_system_vold" remote="puremod" revision="WIP" />
-  <project path="build" name="PureNexusProjectMod/android_build" remote="puremod" revision="WIP">
+  <project path="build" name="PureNexusProjectMod/android_build" remote="puremod" revision="n-mr2">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
