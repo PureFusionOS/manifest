@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="puremod"
-          fetch="https://github.com/PureNexusProjectMod/"
+          fetch=".."
           review="review.aosnp.com" />
 
   <remote name="tabp0le"
@@ -27,32 +27,32 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
 
   <!-- PureNexusMod (Our repos) -->
-  <project path="manifest" name="manifest" remote="puremod" revision="n-mr2" />
-  <project path="art" name="android_art" remote="puremod" revision="WIP" />
+  <project path="manifest" name="PureNexusProjectMod/manifest" remote="puremod" revision="n-mr2" />
+  <project path="art" name="PureNexusProjectMod/android_art" remote="puremod" revision="WIP" />
 
   <!-- System  -->
-  <project path="vendor/pure" name="android_vendor_pure" remote="puremod" revision="WIP" />  
-  <project path="system/core" name="android_system_core" remote="puremod" revision="WIP" />
-   <project path="system/extras" name="android_system_extras" remote="puremod" revision="WIP" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="puremod" revision="WIP-pure" />
-  <project path="system/vold" name="android_system_vold" remote="puremod" revision="WIP" />
-  <project path="build" name="android_build" remote="puremod" revision="WIP">
+  <project path="vendor/pure" name="PureNexusProjectMod/android_vendor_pure" remote="puremod" revision="WIP" />  
+  <project path="system/core" name="PureNexusProjectMod/android_system_core" remote="puremod" revision="WIP" />
+   <project path="system/extras" name="PureNexusProjectMod/android_system_extras" remote="puremod" revision="WIP" />
+  <project path="system/sepolicy" name="PureNexusProjectMod/android_system_sepolicy" remote="puremod" revision="WIP-pure" />
+  <project path="system/vold" name="PureNexusProjectMod/android_system_vold" remote="puremod" revision="WIP" />
+  <project path="build" name="PureNexusProjectMod/android_build" remote="puremod" revision="WIP">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="puremod" revision="WIP" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="puremod" revision="WIP" />
+  <project path="frameworks/av" name="PureNexusProjectMod/android_frameworks_av" remote="puremod" revision="WIP" />
+  <project path="frameworks/rs" name="PureNexusProjectMod/android_frameworks_rs" remote="puremod" revision="WIP" />
 
   <!-- Apps -->
-  <project path="packages/apps/PureOTA" name="android_packages_apps_PureOTA" remote="puremod" revision="WIP" />
+  <project path="packages/apps/PureOTA" name="PureNexusProjectMod/android_packages_apps_PureOTA" remote="puremod" revision="WIP" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
 
   <!-- NEW DEVICE TREE -->
-  <project name="android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="WIP-pure" /> 
+  <project name="PureNexusProjectMod/android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="WIP-pure" /> 
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
-  <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
+  <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
 
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
