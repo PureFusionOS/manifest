@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="purenexus-mod"
-           fetch="https://github.com/PureNexusProject-Mod/"
-           revision="n-mr2" />
-  <remote name="gitlab-jhenrique09"
-           fetch="https://gitlab.com/jhenrique09/"
-           revision="n-mr2" />
 
   <!-- PureNexusProject-Mod repos -->
   <project path="bionic" name="android_bionic" remote="purenexus-mod" />

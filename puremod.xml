@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="puremod"
-          fetch=".."
-          review="review.aosnp.com" />
-
-  <remote name="tabp0le"
-          fetch="https://github.com/tabp0le/" />
-
-  <remote name="OctopusParty"
-          fetch="https://github.com/OctopusParty/" />
-
-  <remote name="voxpopuli" 
-          fetch="https://github.com/EAS-Project"  />
-
-  <remote name="AOSNP"
-          fetch="https://github.com/AOSNP-CAF" />
-
-  <remote name="bb"
-          fetch="https://bitbucket.org/"
-          revision="refs/heads/master" />
-
   <!-- LineageOS repos (will be forked and removed in future -->
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1"  />
