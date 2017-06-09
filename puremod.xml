@@ -35,10 +35,14 @@
   <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
 
   <!-- GCC UBER PREBUILTS -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="uberroms/aarch64-linux-android-7.x" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="uberroms/arm-linux-androideabi-7.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="aosnp/aarch64-linux-android-7.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" name="aosnp/aarch64-linux-android-8.x" remote="bb" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="aosnp/arm-linux-androideabi-4.9" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="aosnp/arm-linux-androideabi-5.x" remote="bb" />
+<!--  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="aosnp/arm-linux-androideabi-6.x" remote="bb" /> -->
+<!--  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="aosnp/arm-linux-androideabi-7.x" remote="bb" /> -->
 	
   <!-- CLANG UBER PREBUILDS -->	
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
@@ -46,7 +50,7 @@
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
   <!-- SnapDragon Clang Compiler -->
-  <project name="snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="AOSNP" revision="master" />
+  <project name="aosnp/snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="bb" revision="master" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
