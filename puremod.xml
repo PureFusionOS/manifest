@@ -32,7 +32,7 @@
   <project name="PureNexusProjectMod/android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n-mr2" /> 
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
-  <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n7x-pure-WIP" /> 	
+  <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n-mr2" /> 	
 
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
