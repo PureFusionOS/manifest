@@ -49,8 +49,13 @@
   <project path="prebuilts/clang/host/linux-x86/4.0" name="uberroms/clang_linux-x86_4.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
-  <!-- SnapDragon Clang Compiler -->
-  <project name="aosnp/snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="bb" revision="master" />
+  <!-- SnapDragon Clang Compiler Updated By @Eliminater74 -->
+<!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_4.9" /> -->
+  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" /> 
+<!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_7.x" /> -->
+<!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_8.x" /> -->
+<!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_clang" /> -->
+	
   
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
