@@ -22,8 +22,8 @@
   
   <!-- Frameworks -->
   <project path="frameworks/av" name="PureNexusProjectMod/android_frameworks_av" remote="puremod" revision="WIP" />
+  <project path="frameworks/native" name="PureNexusProjectMod/android_frameworks_native" remote="puremod" revision="n-mr2" />
   <project path="frameworks/rs" name="PureNexusProjectMod/android_frameworks_rs" remote="puremod" revision="WIP" />
-
   <!-- Apps -->
   <project path="packages/apps/PureOTA" name="PureNexusProjectMod/android_packages_apps_PureOTA" remote="puremod" revision="WIP" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
