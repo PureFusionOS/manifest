@@ -30,7 +30,7 @@
 
   <!-- NEW DEVICE TREE -->
   <project name="PureNexusProjectMod/android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n-mr2" /> 
-  <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n7x-eas" /> 
+  <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n-mr2" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
   <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="puremod" revision="n-mr2" /> 	
 
