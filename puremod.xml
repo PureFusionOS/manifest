@@ -12,7 +12,7 @@
 
   <!-- System  -->
   <project path="vendor/pure" name="PureNexusProjectMod/android_vendor_pure" remote="puremod" revision="n-mr2" />  
-  <project path="system/core" name="PureNexusProjectMod/android_system_core" remote="puremod" revision="WIP" />
+  <project path="system/core" name="PureNexusProjectMod/android_system_core" remote="puremod" revision="n-mr2" />
   <project path="system/extras" name="PureNexusProjectMod/android_system_extras" remote="puremod" revision="WIP" />
   <project path="system/sepolicy" name="PureNexusProjectMod/android_system_sepolicy" remote="puremod" revision="WIP-pure" />
   <project path="system/vold" name="PureNexusProjectMod/android_system_vold" remote="puremod" revision="WIP" />
@@ -21,7 +21,7 @@
   </project>
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="PureNexusProjectMod/android_frameworks_av" remote="puremod" revision="WIP" />
+  <project path="frameworks/av" name="PureNexusProjectMod/android_frameworks_av" remote="puremod" revision="n-mr2" />
   <project path="frameworks/native" name="PureNexusProjectMod/android_frameworks_native" remote="puremod" revision="n-mr2" />
   <project path="frameworks/rs" name="PureNexusProjectMod/android_frameworks_rs" remote="puremod" revision="WIP" />
   <!-- Apps -->
