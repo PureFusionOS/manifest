@@ -24,6 +24,7 @@
   <remove-project name="android_packages_apps_PureSettings" />
   <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_packages_services_Telecomm" />
+    <remove-project name="android_packages_apps_Dialer" />
   <remove-project name="android_packages_apps_MusicFX" />
   <remove-project name="android_system_core" />
   <remove-project name="android_system_sepolicy" />
