@@ -32,6 +32,7 @@
   <project path="packages/apps/Dialer" name="PureNexusProjectMod/android_packages_apps_Dialer" groups="pdk-fs" remote="puremod" revision="n-mr2" />
   <project path="packages/services/Telecomm" name="PureNexusProjectMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="puremod" revision="n-mr2" />
 
+
   <!-- NEW DEVICE TREE -->
   <project name="PureNexusProjectMod/android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n-mr2" /> 
   <project name="proprietary_vendor_htc" path="vendor/htc" remote="OctopusParty" revision="n-mr2" /> 
