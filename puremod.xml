@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- LineageOS repos (will be forked and removed in future -->
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1"  />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
@@ -31,7 +33,6 @@
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
   <project path="packages/apps/Dialer" name="PureNexusProjectMod/android_packages_apps_Dialer" groups="pdk-fs" remote="puremod" revision="n-mr2" />
   <project path="packages/services/Telecomm" name="PureNexusProjectMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="puremod" revision="n-mr2" />
-
 
   <!-- NEW DEVICE TREE -->
   <project name="PureNexusProjectMod/android_device_htc_pme" path="device/htc/pme" remote="puremod" revision="n-mr2" /> 
