@@ -29,8 +29,8 @@
   <project path="frameworks/base" name="PureNexusProjectMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="puremod" revision="n-mr2" />
 
   <!-- Apps -->
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="puremod" revision="n-mr2"/>
-  <project path="packages/apps/PureSettings" name="android_packages_apps_PureSettings" remote="puremod" revision="n-mr2"/>
+  <project path="packages/apps/Settings" name="PureNexusProjectMod/android_packages_apps_Settings" groups="pdk-fs" remote="puremod" revision="n-mr2"/>
+  <project path="packages/apps/PureSettings" name="PureNexusProjectMod/android_packages_apps_PureSettings" groups="pdk-fs" remote="puremod" revision="n-mr2"/>
   <project path="packages/apps/PureOTA" name="PureNexusProjectMod/android_packages_apps_PureOTA" remote="puremod" revision="n-mr2" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
   <project path="packages/apps/Dialer" name="PureNexusProjectMod/android_packages_apps_Dialer" groups="pdk-fs" remote="puremod" revision="n-mr2" />
