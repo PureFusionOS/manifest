@@ -12,6 +12,9 @@
   <project path="manifest" name="PureNexusProjectMod/manifest" remote="puremod" revision="n-mr2" />
   <project path="art" name="PureNexusProjectMod/android_art" remote="puremod" revision="WIP" />
 
+  <!-- PureFusionOS -->
+
+
   <!-- System  -->
   <project path="vendor/pure" name="PureNexusProjectMod/android_vendor_pure" remote="puremod" revision="n-mr2" />  
   <project path="system/core" name="PureNexusProjectMod/android_system_core" remote="puremod" revision="n-mr2" />
