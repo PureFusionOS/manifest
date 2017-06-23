@@ -18,6 +18,7 @@
   <remove-project name="android_vendor_pure" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_native" />
+  <remove-project name="android_packages_providers_MediaProvider" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_support" />
   <remove-project name="android_packages_apps_Settings" />
