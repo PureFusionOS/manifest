@@ -13,7 +13,7 @@
   <project path="art" name="PureNexusProjectMod/android_art" remote="puremod" revision="WIP" />
 
   <!-- PureFusionOS -->
-
+  <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider" remote="fusion" revision="n-mr2" />
 
   <!-- System  -->
   <project path="vendor/pure" name="PureNexusProjectMod/android_vendor_pure" remote="puremod" revision="n-mr2" />  
