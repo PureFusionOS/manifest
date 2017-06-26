@@ -46,8 +46,10 @@ Please do not directly submit pull requests to our github. In order to contribut
 Instructions on submitting code for review can be found [here](https://review.aosnp.com/Documentation/user-upload.html)
 Instructions on submitting using the repo command can be found [here](https://source.android.com/source/using-repo) (recommended - must have full Android source tree synced)
 
+##### Sources
 We have used a mixture of PureNexusProject and PureNexusProject-Mod as a base for this ROM.
 
 [PureNexusProject-Mod](https://github.com/PureNexusProject-Mod/) (original source PureNexusProject-Mod)
+
 [PureNexusProject](https://github.com/PureNexusProject) (original source PureNexusProject)
 
