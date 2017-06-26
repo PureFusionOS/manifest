@@ -10,19 +10,12 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 	   
- <remote  name="puremod"
-          fetch=".."
-          review="review.aosnp.com" />
-	   
  <remote  name="fusion"
           fetch=".."
           review="review.aosnp.com" />
 
   <remote name="tabp0le"
           fetch="https://github.com/tabp0le/" />
-
-  <remote name="OctopusParty"
-          fetch="https://github.com/OctopusParty/" />
 
   <remote name="voxpopuli" 
           fetch="https://github.com/EAS-Project"  />
