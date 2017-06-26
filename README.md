@@ -48,6 +48,6 @@ Instructions on submitting using the repo command can be found [here](https://so
 
 We have used a mixture of PureNexusProject and PureNexusProject-Mod as a base for this ROM.
 
-[PureNexusProject-Mod]https://github.com/PureNexusProject-Mod/) (original source PureNexusProject-Mod)
-[PureNexusProject]https://github.com/PureNexusProject) (original source PureNexusProject)
+[PureNexusProject-Mod](https://github.com/PureNexusProject-Mod/) (original source PureNexusProject-Mod)
+[PureNexusProject](https://github.com/PureNexusProject) (original source PureNexusProject)
 
