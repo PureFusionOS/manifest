@@ -9,10 +9,10 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
 
   <!-- PureNexusMod (Our repos) -->
-  <project path="manifest" name="PureNexusProjectMod/manifest" remote="puremod" revision="n-mr2" />
   <project path="art" name="PureNexusProjectMod/android_art" remote="puremod" revision="WIP" />
 
   <!-- PureFusionOS -->
+  <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider" remote="fusion" revision="n-mr2" />
 
   <!-- System  -->
@@ -29,7 +29,7 @@
   <project path="frameworks/av" name="PureNexusProjectMod/android_frameworks_av" remote="puremod" revision="n-mr2" />
   <project path="frameworks/native" name="PureNexusProjectMod/android_frameworks_native" remote="puremod" revision="n-mr2" />
   <project path="frameworks/rs" name="PureNexusProjectMod/android_frameworks_rs" remote="puremod" revision="WIP" />
-  <project path="frameworks/base" name="PureNexusProjectMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="puremod" revision="n-mr2" />
+  <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="PureNexusProjectMod/android_packages_apps_Settings" groups="pdk-fs" remote="puremod" revision="n-mr2"/>
