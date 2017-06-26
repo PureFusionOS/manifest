@@ -46,7 +46,7 @@
   <project name="FusionDevices/android_device_htc_pme" path="device/htc/pme" remote="fusion" revision="n-mr2" /> 
   <project name="OctopusParty/proprietary_vendor_htc" path="vendor/htc" remote="fusion" revision="n-mr2" /> 
   <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
-  <project name="PureNexusProjectMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="fusion" revision="n-mr2" /> 	
+  <project name="FusionDevices/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="fusion" revision="n-mr2" /> 	
 
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
