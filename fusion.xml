@@ -9,7 +9,7 @@
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
 
   <!-- PureNexusMod (Our repos) -->
-  <project path="art" name="PureFusionOS/android_art" remote="fusion" revision="WIP" />
+  <project path="art" name="PureFusionOS/android_art" remote="fusion" revision="n-mr2" />
   <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" revision="n-mr2" />
 
   <!-- PureFusionOS -->
