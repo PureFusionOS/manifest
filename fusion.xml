@@ -11,6 +11,7 @@
   <!-- PureNexusMod (Our repos) -->
   <project path="art" name="PureFusionOS/android_art" remote="fusion" revision="n-mr2" />
   <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" revision="n-mr2" />
+  <project path="vendor/gapps" name="aosnp/android_vendor_gapps" remote="bb" clone-depth="1" revision="n-mr2" />
 
   <!-- PureFusionOS -->
   <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
