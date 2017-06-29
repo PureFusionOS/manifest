@@ -10,7 +10,6 @@
   </project>
   <project path="development" name="android_development" remote="purenexus-mod" />
   <project path="libcore" name="android_libcore" remote="purenexus-mod" />
-  <project path="vendor/gapps" name="pure_vendor_gapps" remote="gitlab-jhenrique09" clone-depth="1" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="purenexus-mod" />
