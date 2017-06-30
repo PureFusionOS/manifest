@@ -4,6 +4,7 @@
   <!-- LineageOS repos (will be forked and removed in future -->
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1"/>
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1"  />
   <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
@@ -16,6 +17,7 @@
   <!-- PureFusionOS -->
   <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider" remote="fusion" revision="n-mr2" />
+  <project path="devie/qcom/common" name="PureFusionOS/android_<project path="devie/qcom/common" name="PureFusionOS/android_device_qcom_common" remote="fusion" revision="n-mr2" />
 
   <!-- System  -->
   <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" revision="n-mr2" />  
@@ -32,6 +34,9 @@
   <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" revision="n-mr2" />
   <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" revision="WIP" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
