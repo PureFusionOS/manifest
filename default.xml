@@ -41,7 +41,7 @@
   <remote name="gitlab"
            fetch="https://gitlab.com/PureNexus/" /> 
 	   
-  <default revision="refs/tags/android-7.1.2_r17"
+  <default revision="refs/tags/android-7.1.2_r27"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
