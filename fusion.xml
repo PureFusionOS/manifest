@@ -84,13 +84,13 @@
   
   <!-- Newer Clang Support -->
   <project path="bootable/recovery" name="PureFusionOS/android_bootable_recovery" remote="fusion" revision="n-mr2" />
-  <project path="external/clang" name="PureFusionOS/android_external_clang" remote="fusion" revision="WIP" />
+  <project path="external/clang" name="PureFusionOS/android_external_clang" remote="fusion" revision="n-mr2" />
   <project path="external/compiler-rt" name="PureFusionOS/android_external_compiler-rt" remote="fusion" revision="WIP" />
   <project path="external/libchrome" name="PureFusionOS/android_external_libchrome" remote="fusion" revision="WIP" />
   <project path="external/llvm" name="PureFusionOS/android_external_llvm" groups="pdk" remote="fusion" revision="WIP" />
-  <project path="frameworks/compile/libbcc" name="PureFusionOS/android_frameworks_compile_libbcc" remote="fusion" revision="WIP" />
-  <project path="frameworks/compile/mclinker" name="PureFusionOS/android_frameworks_compile_mclinker" remote="fusion" revision="WIP" />
-  <project path="frameworks/compile/slang" name="PureFusionOS/android_frameworks_compile_slang" remote="fusion" revision="WIP" />
+  <project path="frameworks/compile/libbcc" name="PureFusionOS/android_frameworks_compile_libbcc" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/compile/mclinker" name="PureFusionOS/android_frameworks_compile_mclinker" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/compile/slang" name="PureFusionOS/android_frameworks_compile_slang" remote="fusion" revision="n-mr2" />
   <project path="prebuilts/sdk" name="PureFusionOS/android_prebuilts_sdk" remote="fusion" revision="master" />
 
 </manifest>
