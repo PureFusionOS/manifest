@@ -41,7 +41,7 @@
   <!-- Apps -->
   <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
   <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
-  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_apps_PureFusionOTA" remote="fusion" revision="n-mr2" />
+  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" revision="n-mr2" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github"  revision="cm-14.1" />
   <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-fs" remote="fusion" revision="n-mr2" />
