@@ -37,6 +37,9 @@
 	  	   
   <remote name="pure"
            fetch="https://github.com/PureNexusProject/" /> 
+           
+  <remote name="FusionDevices"
+           fetch="https://github.com/" />
 	   
   <remote name="gitlab"
            fetch="https://gitlab.com/PureNexus/" /> 
