@@ -5,11 +5,11 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-	   
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-	   
+
  <remote  name="fusion"
           fetch=".."
           review="review.aosnp.com" />
@@ -17,7 +17,7 @@
   <remote name="tabp0le"
           fetch="https://github.com/tabp0le/" />
 
-  <remote name="voxpopuli" 
+  <remote name="voxpopuli"
           fetch="https://github.com/EAS-Project"  />
 
   <remote name="AOSNP"
@@ -26,21 +26,24 @@
   <remote name="bb"
           fetch="https://bitbucket.org/"
           revision="refs/heads/master" />
-	  
+
   <remote name="purenexus-mod"
            fetch="https://github.com/PureNexusProject-Mod/"
            revision="n-mr2" />
-	   
+
   <remote name="gitlab-jhenrique09"
            fetch="https://gitlab.com/jhenrique09/"
-           revision="n-mr2" />	  
-	  	   
+           revision="n-mr2" />
+
   <remote name="pure"
-           fetch="https://github.com/PureNexusProject/" /> 
-	   
+           fetch="https://github.com/PureNexusProject/" />
+
+  <remote name="FusionDevices"
+           fetch="https://github.com/" />
+
   <remote name="gitlab"
-           fetch="https://gitlab.com/PureNexus/" /> 
-	   
+           fetch="https://gitlab.com/PureNexus/" />
+
   <default revision="refs/tags/android-7.1.2_r27"
            remote="aosp"
            sync-c="true"
