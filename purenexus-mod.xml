@@ -80,7 +80,6 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="purenexus-mod" />
   <project path="external/DUtils" name="android_external_DUtils" remote="purenexus-mod" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" revision="cm-14.1" remote="github" />
-  <project path="external/skia" name="LineageOS/android_external_skia" revision="cm-14.1" remote="github" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" revision="cm-14.1" remote="github" />
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" revision="cm-14.1" remote="github" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" revision="cm-14.1" remote="github" />
