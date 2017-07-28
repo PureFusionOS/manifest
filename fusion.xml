@@ -36,6 +36,9 @@
   <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" revision="n-mr2" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
+  <!-- External -->
+  <project path="external/zlib" name="PureFusionOS/android_external/zlib" remote="fusion" revision="n-mr2" />
+
   <!-- Hardware -->
   <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
 
