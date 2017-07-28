@@ -37,6 +37,7 @@
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
   <!-- External -->
+  <project path="external/libjpeg-turbo" name="PureFusionOS/android_external/libjpeg-turbo" remote="fusion" revision="n-mr2" />
   <project path="external/zlib" name="PureFusionOS/android_external/zlib" remote="fusion" revision="n-mr2" />
 
   <!-- Hardware -->
