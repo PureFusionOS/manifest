@@ -37,11 +37,11 @@
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
   <!-- External -->
-  <project path="external/libjpeg-turbo" name="PureFusionOS/android_external/libjpeg-turbo" remote="fusion" revision="n-mr2" />
-  <project path="external/libpng" name="PureFusionOS/android_external/libpng" remote="fusion" revision="n-mr2" />
-  <project path="external/skia" name="PureFusionOS/android_external/skia" remote="fusion" revision="n-mr2" />
-  <project path="external/sqlite" name="PureFusionOS/android_external/sqlite" remote="fusion" revision="n-mr2" />
-  <project path="external/zlib" name="PureFusionOS/android_external/zlib" remote="fusion" revision="n-mr2" />
+  <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" revision="n-mr2" />
+  <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" revision="n-mr2" />
+  <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion" revision="n-mr2" />
+  <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" revision="n-mr2" />
+  <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" revision="n-mr2" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
