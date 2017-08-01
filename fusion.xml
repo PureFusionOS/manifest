@@ -5,9 +5,6 @@
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
   <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1"/>
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1"  />
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc"  remote="github" revision="cm-14.1"  />
 
   <!-- PureNexusMod (Our repos) -->
   <project path="art" name="PureFusionOS/android_art" remote="fusion" revision="n-mr2" />
@@ -18,7 +15,6 @@
   <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
   <project path="libcore" name="PureFusionOS/android_libcore" remote="fusion" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider" remote="fusion" revision="n-mr2" />
-  <project path="device/qcom/common" name="PureFusionOS/android_device_qcom_common" remote="fusion" revision="n-mr2" />
 
   <!-- System  -->
   <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" revision="n-mr2" />
@@ -30,7 +26,7 @@
   <project path="build" name="PureFusionOS/android_build" remote="fusion" revision="n-mr2">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="PureFusionOS/android_frameworks_av" remote="fusion" revision="n-mr2" />
   <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" revision="n-mr2" />
@@ -60,12 +56,6 @@
   <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
-  <!-- NEW DEVICE TREE -->
-  <project name="FusionDevices/android_device_htc_pme" path="device/htc/pme" remote="fusion" revision="n-mr2" /> 
-  <project name="OctopusParty/proprietary_vendor_htc" path="vendor/htc" remote="fusion" revision="n-mr2" /> 
-  <project name="android_device_voxpopuli" path="device/voxpopuli" remote="voxpopuli" revision="msm8996" /> 
-  <project name="FusionDevices/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="fusion" revision="n-mr2" /> 	
-
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="aosnp/aarch64-linux-android-7.x" remote="bb" />
@@ -75,23 +65,23 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="aosnp/arm-linux-androideabi-5.x" remote="bb" />
 <!--  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="aosnp/arm-linux-androideabi-6.x" remote="bb" /> -->
 <!--  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="aosnp/arm-linux-androideabi-7.x" remote="bb" /> -->
-	
-  <!-- CLANG UBER PREBUILDS -->	
+
+  <!-- CLANG UBER PREBUILDS -->
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/4.0" name="uberroms/clang_linux-x86_4.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
 
   <!-- SnapDragon Clang Compiler Updated By @Eliminater74 -->
 <!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_4.9" /> -->
-  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" /> 
+  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" />
 <!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_7.x" /> -->
 <!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_8.x" /> -->
 <!--  <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_clang" /> -->
-	
-  
+
+
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
-  
+
   <!-- Newer Clang Support -->
   <project path="bootable/recovery" name="PureFusionOS/android_bootable_recovery" remote="fusion" revision="n-mr2" />
   <project path="external/clang" name="PureFusionOS/android_external_clang" remote="fusion" revision="n-mr2" />
