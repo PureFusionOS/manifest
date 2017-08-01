@@ -16,6 +16,7 @@
 
   <!-- PureFusionOS -->
   <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
+  <project path="libcore" name="PureFusionOS/libcore" remote="fusion" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider" remote="fusion" revision="n-mr2" />
   <project path="device/qcom/common" name="PureFusionOS/android_device_qcom_common" remote="fusion" revision="n-mr2" />
 

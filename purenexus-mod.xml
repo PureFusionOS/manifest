@@ -9,7 +9,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="development" name="android_development" remote="purenexus-mod" />
-  <project path="libcore" name="android_libcore" remote="purenexus-mod" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="purenexus-mod" />
