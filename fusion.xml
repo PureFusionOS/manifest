@@ -36,6 +36,7 @@
   <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" revision="n-mr2" />
   <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" revision="n-mr2" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/opt/chips" name="PureFusionOS/android_frameworks_opt_chips" remote="fusion" revision="n-mr2" />
 
   <!-- External -->
   <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" revision="n-mr2" />
