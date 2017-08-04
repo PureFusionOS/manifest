@@ -53,9 +53,9 @@
   <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" revision="n-mr2" />  
+  <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="packages/apps/Matlog" name="PureFusionOS/android_packages_apps_Matlog" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  
+
   <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
 
   <!-- GCC UBER PREBUILTS -->

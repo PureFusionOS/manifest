@@ -570,12 +570,12 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
 
   <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
+  <include name="includes/remove.xml" />
 
   <!-- PureNexusProject-Mod repos -->
-  <include name="purenexus-mod.xml" />
+  <include name="includes/purenexus-mod.xml" />
 
   <!-- PureFusionOS repos -->
-  <include name="fusion.xml" />
+  <include name="includes/fusion.xml" />
 
 </manifest>
