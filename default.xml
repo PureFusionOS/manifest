@@ -571,6 +571,9 @@
 
   <!-- Remove unused AOSP repos -->
   <include name="includes/remove.xml" />
+  
+  <!-- PureFusionOS Hardware -->
+  <include name="includes/hardware.xml" />
 
   <!-- PureNexusProject-Mod repos -->
   <include name="includes/purenexus-mod.xml" />
