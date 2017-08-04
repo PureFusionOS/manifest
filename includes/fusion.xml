@@ -45,6 +45,7 @@
   <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
 
   <!-- Apps -->
+  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
   <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
   <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
   <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" revision="n-mr2" />
