@@ -27,34 +27,6 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="purenexus-mod" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="purenexus-mod" />
 
-  <!-- External -->
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="purenexus-mod" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="purenexus-mod" />
-  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" revision="cm-14.1" remote="github" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" revision="cm-14.1" remote="github" />
-  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" revision="cm-14.1" remote="github" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" revision="cm-14.1" remote="github" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" revision="cm-14.1" remote="github" />
-  <project path="external/ebtables" name="LineageOS/android_external_ebtables" revision="cm-14.1" remote="github" />
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" revision="cm-14.1" remote="github" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" revision="cm-14.1" remote="github" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" revision="cm-14.1" remote="github" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" revision="cm-14.1" remote="github" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="cm-14.1" remote="github" />
-  <project path="external/brctl" name="LineageOS/android_external_brctl" revision="cm-14.1" remote="github" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" revision="cm-14.1" remote="github" />
-  <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" remote="github" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="cm-14.1" remote="github" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" revision="cm-14.1" remote="github" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" revision="cm-14.1" remote="github" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" revision="cm-14.1" remote="github" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" revision="cm-14.1" remote="github" />
-  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" revision="cm-14.1" remote="github" />
-  <project path="external/bson" name="LineageOS/android_external_bson" revision="cm-14.1" remote="github" />
-  <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" remote="github" />
-  <project path="external/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" remote="github" />
-  <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" revision="cm-14.1" remote="github" />
-
   <!-- Prebuilts and Toolchains -->
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="purenexus-mod" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="purenexus-mod" clone-depth="1" />
