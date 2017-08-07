@@ -1,5 +1,4 @@
 [gerrit]
-host=review.aosnp.com
+host=review.purefusionos.com
 port=29418
-project=manifest.git
 defaultbranch=n-mr2
