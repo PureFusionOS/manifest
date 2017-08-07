@@ -12,7 +12,7 @@
 
  <remote  name="fusion"
           fetch=".."
-          review="review.aosnp.com" />
+          review="review.purefusionos.com" />
 
   <remote name="tabp0le"
           fetch="https://github.com/tabp0le/" />
