@@ -17,7 +17,7 @@ Then to sync up:
     repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
     
 ##### Setting Up CCache
-- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection Remix faster than standard build times (Able to cut-down 50% of time taken to build).
+- CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Pure Fusion faster than standard build times (Able to cut-down 50% of time taken to build).
 - To set up CCache, follow the following:
 
 
