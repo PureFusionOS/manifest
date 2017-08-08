@@ -567,9 +567,6 @@
   <!-- PureFusionOS Hardware -->
   <include name="includes/hardware.xml" />
 
-  <!-- PureNexusProject-Mod repos -->
-  <include name="includes/purenexus-mod.xml" />
-
   <!-- PureFusionOS repos -->
   <include name="includes/fusion.xml" />
 
