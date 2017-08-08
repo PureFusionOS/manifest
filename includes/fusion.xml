@@ -40,9 +40,9 @@
   <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" revision="n-mr2" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
   <project path="frameworks/opt/chips" name="PureFusionOS/android_frameworks_opt_chips" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/net/ims" name="PureFusionOS/android_frameworks_opt_net_ims" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/net/wifi" name="PureFusionOS/android_frameworks_opt_net_wifi" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" />
+  <project path="frameworks/opt/net/ims" name="PureFusionOS/android_frameworks_opt_net_ims" remote="fusion" />
+  <project path="frameworks/opt/net/wifi" name="PureFusionOS/android_frameworks_opt_net_wifi" remote="fusion" />
   <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" remote="fusion" revision="n-mr2" />
 
   <!-- External -->
@@ -84,9 +84,9 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
-  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" revision="n-mr2" />
-  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" remote="fusion" revision="n-mr2" />
-  <project path="hardware/ril" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2" />
+  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
+  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" remote="fusion" />
+  <project path="hardware/ril" name="PureFusionOS/android_hardware_ril" remote="fusion" />
   <project path="hardware/ril-caf" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2-caf" />
 
   <!-- Apps -->
