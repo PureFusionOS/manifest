@@ -27,14 +27,6 @@
           fetch="https://bitbucket.org/"
           revision="refs/heads/master" />
 
-  <remote name="purenexus-mod"
-           fetch="https://github.com/PureNexusProject-Mod/"
-           revision="n-mr2" />
-
-  <remote name="gitlab-jhenrique09"
-           fetch="https://gitlab.com/jhenrique09/"
-           revision="n-mr2" />
-
   <remote name="pure"
            fetch="https://github.com/PureNexusProject/" />
 
