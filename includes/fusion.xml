@@ -8,51 +8,51 @@
 
 
   <!-- PureFusionOS -->
-  <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="n-mr2" />
-  <project path="libcore" name="PureFusionOS/android_libcore" remote="fusion" revision="n-mr2" />
-  <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider"  remote="fusion" revision="n-mr2" />
-  <project path="art" name="PureFusionOS/android_art" remote="fusion" revision="n-mr2" />
-  <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" revision="n-mr2" />
+  <project path="manifest" name="PureFusionOS/manifest" remote="fusion" />
+  <project path="libcore" name="PureFusionOS/android_libcore" remote="fusion" />
+  <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider"  remote="fusion" />
+  <project path="art" name="PureFusionOS/android_art" remote="fusion" />
+  <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" />
   <project path="vendor/gapps" name="aosnp/android_vendor_gapps" remote="bb" clone-depth="1" revision="n-mr2" />
-  <project path="build/blueprint" name="PureFusionOS/android_build_blueprint" remote="fusion" revision="n-mr2" />
-  <project path="build/kati" name="PureFusionOS/android_build_kati" remote="fusion" revision="n-mr2" />
-  <project path="build/soong" name="PureFusionOS/android_build_soong" remote="fusion" revision="n-mr2" >
+  <project path="build/blueprint" name="PureFusionOS/android_build_blueprint" remote="fusion" />
+  <project path="build/kati" name="PureFusionOS/android_build_kati" remote="fusion" />
+  <project path="build/soong" name="PureFusionOS/android_build_soong" remote="fusion" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="development" name="PureFusionOS/android_development" remote="fusion" revision="n-mr2" />
+  <project path="development" name="PureFusionOS/android_development" remote="fusion" />
 
   <!-- System  -->
-  <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" revision="n-mr2" />
-  <project path="system/bt" name="PureFusionOS/android_system_bt" remote="fusion" revision="n-mr2" />
-  <project path="system/core" name="PureFusionOS/android_system_core" remote="fusion" revision="n-mr2" />
-  <project path="system/extras" name="PureFusionOS/android_system_extras" remote="fusion" revision="n-mr2" />
-  <project path="system/sepolicy" name="PureFusionOS/android_system_sepolicy" remote="fusion" revision="n-mr2" />
-  <project path="system/vold" name="PureFusionOS/android_system_vold" remote="fusion" revision="n-mr2" />
-  <project path="system/media" name="PureFusionOS/android_system_media" remote="fusion" revision="n-mr2" />
-  <project path="build" name="PureFusionOS/android_build" remote="fusion" revision="n-mr2">
+  <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" />
+  <project path="system/bt" name="PureFusionOS/android_system_bt" remote="fusion" />
+  <project path="system/core" name="PureFusionOS/android_system_core" remote="fusion" />
+  <project path="system/extras" name="PureFusionOS/android_system_extras" remote="fusion" />
+  <project path="system/sepolicy" name="PureFusionOS/android_system_sepolicy" remote="fusion" />
+  <project path="system/vold" name="PureFusionOS/android_system_vold" remote="fusion" />
+  <project path="system/media" name="PureFusionOS/android_system_media" remote="fusion" />
+  <project path="build" name="PureFusionOS/android_build" remote="fusion">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="PureFusionOS/android_frameworks_av" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/chips" name="PureFusionOS/android_frameworks_opt_chips" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/net/ims" name="PureFusionOS/android_frameworks_opt_net_ims" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/opt/net/wifi" name="PureFusionOS/android_frameworks_opt_net_wifi" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/av" name="PureFusionOS/android_frameworks_av" remote="fusion" />
+  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" />
+  <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" />
+  <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
+  <project path="frameworks/opt/chips" name="PureFusionOS/android_frameworks_opt_chips" remote="fusion" />
+  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" />
+  <project path="frameworks/opt/net/ims" name="PureFusionOS/android_frameworks_opt_net_ims" remote="fusion" />
+  <project path="frameworks/opt/net/wifi" name="PureFusionOS/android_frameworks_opt_net_wifi" remote="fusion" />
+  <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" remote="fusion" />
 
   <!-- External -->
-  <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" revision="n-mr2" />
-  <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" revision="n-mr2" />
-  <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" revision="n-mr2" />
-  <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion" revision="n-mr2" />
-  <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" revision="n-mr2" />
-  <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" revision="n-mr2" />
-  <project path="external/wpa_supplicant_8" name="PureFusionOS/android_external_wpa_supplicant_8" remote="fusion" revision="n-mr2" />
+  <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
+  <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" />
+  <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
+  <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion" />
+  <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" />
+  <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" />
+  <project path="external/wpa_supplicant_8" name="PureFusionOS/android_external_wpa_supplicant_8" remote="fusion" />
   
   <!-- External LineageOS--> 
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" revision="cm-14.1" remote="github" />
@@ -83,35 +83,35 @@
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" revision="n-mr2" />
-  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" revision="n-mr2" />
-  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" remote="fusion" revision="n-mr2" />
-  <project path="hardware/ril" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2" />
+  <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" />
+  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
+  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" remote="fusion" />
+  <project path="hardware/ril" name="PureFusionOS/android_hardware_ril" remote="fusion" />
   <project path="hardware/ril-caf" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2-caf" />
 
   <!-- Apps -->
-  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
-  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
-  <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion" revision="n-mr2"/>
-  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" remote="fusion"  revision="n-mr2" />
-  <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/Matlog" name="PureFusionOS/android_packages_apps_Matlog" groups="pdk-fs" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/FMRadio" name="PureFusionOS/android_packages_apps_FMRadio" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/Gallery2" name="PureFusionOS/android_packages_apps_Gallery2" remote="fusion" revision="n-mr2" />
-  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" revision="n-mr2" />
-  <project path="packages/apps/Nfc" name="PureFusionOS/android_packages_apps_Nfc" remote="fusion" revision="n-mr2" />
+  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion"/>
+  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion"/>
+  <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion"/>
+  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
+  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" remote="fusion" />
+  <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/Matlog" name="PureFusionOS/android_packages_apps_Matlog" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/FMRadio" name="PureFusionOS/android_packages_apps_FMRadio" remote="fusion" />
+  <project path="packages/apps/Gallery2" name="PureFusionOS/android_packages_apps_Gallery2" remote="fusion" />
+  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" />
+  <project path="packages/apps/Nfc" name="PureFusionOS/android_packages_apps_Nfc" remote="fusion" />
 
-  <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" revision="n-mr2" />
+  <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/misc" name="PureFusionOS/android_prebuilts_misc" remote="fusion" revision="n-mr2" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureFusionOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="fusion" revision="n-mr2" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureFusionOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="fusion" revision="n-mr2" clone-depth="1" />
+  <project path="prebuilts/misc" name="PureFusionOS/android_prebuilts_misc" remote="fusion" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureFusionOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="fusion" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureFusionOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="fusion" clone-depth="1" />
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
 
   <!-- GCC UBER PREBUILTS -->
@@ -131,14 +131,14 @@
   <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" />
 
   <!-- Newer Clang Support -->
-  <project path="bootable/recovery" name="PureFusionOS/android_bootable_recovery" remote="fusion" revision="n-mr2" />
-  <project path="external/clang" name="PureFusionOS/android_external_clang" remote="fusion" revision="n-mr2" />
+  <project path="bootable/recovery" name="PureFusionOS/android_bootable_recovery" remote="fusion" />
+  <project path="external/clang" name="PureFusionOS/android_external_clang" remote="fusion" />
   <project path="external/compiler-rt" name="PureFusionOS/android_external_compiler-rt" remote="fusion" revision="WIP" />
   <project path="external/libchrome" name="PureFusionOS/android_external_libchrome" remote="fusion" revision="WIP" />
   <project path="external/llvm" name="PureFusionOS/android_external_llvm" groups="pdk" remote="fusion" revision="WIP" />
-  <project path="frameworks/compile/libbcc" name="PureFusionOS/android_frameworks_compile_libbcc" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/compile/mclinker" name="PureFusionOS/android_frameworks_compile_mclinker" remote="fusion" revision="n-mr2" />
-  <project path="frameworks/compile/slang" name="PureFusionOS/android_frameworks_compile_slang" remote="fusion" revision="n-mr2" />
+  <project path="frameworks/compile/libbcc" name="PureFusionOS/android_frameworks_compile_libbcc" remote="fusion" />
+  <project path="frameworks/compile/mclinker" name="PureFusionOS/android_frameworks_compile_mclinker" remote="fusion" />
+  <project path="frameworks/compile/slang" name="PureFusionOS/android_frameworks_compile_slang" remote="fusion" />
   <project path="prebuilts/sdk" name="PureFusionOS/android_prebuilts_sdk" remote="fusion" revision="master" />
 
 </manifest>

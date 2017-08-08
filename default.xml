@@ -10,8 +10,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
- <remote  name="fusion"
+  <remote name="fusion"
           fetch=".."
+          revision="n-mr2"
           review="review.purefusionos.com" />
 
   <remote name="tabp0le"
