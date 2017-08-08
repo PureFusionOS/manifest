@@ -2,10 +2,6 @@
 <manifest>
 
   <!-- Hardware -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="purenexus-mod" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="purenexus-mod" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="purenexus-mod" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" remote="purenexus-mod" revision="n-mr2-caf" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" revision="cm-14.1" remote="github" />
   <project path="hardware/broadcom/libbt" name="DirtyUnicorns/android_hardware_broadcom_libbt" revision="n7x" remote="github" />
   <project path="hardware/broadcom/wlan" name="DirtyUnicorns/android_hardware_broadcom_wlan" revision="n7x" remote="github" />
