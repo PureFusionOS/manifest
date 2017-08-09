@@ -90,6 +90,7 @@
   <project path="hardware/ril-caf" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2-caf" />
 
   <!-- Apps -->
+  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
   <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion"/>
   <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion"/>
   <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion"/>
