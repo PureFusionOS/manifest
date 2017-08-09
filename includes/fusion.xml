@@ -31,6 +31,7 @@
  <!-- Apps -->
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" />
+ <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
 
  <!-- QCOM -->
  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
