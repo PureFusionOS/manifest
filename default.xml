@@ -3,12 +3,12 @@
 
   <!-- All Remotes Together in one place -->
 
-  <remote  name="github"
-           fetch="https://github.com" />
+  <remote name="github"
+          fetch="https://github.com" />
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com" />
 
   <remote name="fusion"
           fetch=".."
@@ -29,13 +29,15 @@
           revision="refs/heads/master" />
 
   <remote name="pure"
-           fetch="https://github.com/PureNexusProject/" />
+          fetch="https://github.com/PureNexusProject/" />
 
   <remote name="FusionDevices"
-           fetch="https://github.com/" />
+          fetch="https://github.com/"
+          revision="n-mr2"
+          review="review.purefusionos.com" />
 
   <remote name="gitlab"
-           fetch="https://gitlab.com/PureNexus/" />
+          fetch="https://gitlab.com/PureNexus/" />
 
   <default revision="refs/tags/android-7.1.2_r33"
            remote="aosp"
