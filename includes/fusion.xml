@@ -46,6 +46,7 @@
   <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" remote="fusion" />
 
   <!-- External -->
+  <project path="external/chromium-webview" name="PureFusionOS/android_external_chromium-webview" remote="fusion" />
   <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
   <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" />
   <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
@@ -53,8 +54,8 @@
   <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" />
   <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" />
   <project path="external/wpa_supplicant_8" name="PureFusionOS/android_external_wpa_supplicant_8" remote="fusion" />
-  
-  <!-- External LineageOS--> 
+
+  <!-- External LineageOS-->
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" revision="cm-14.1" remote="github" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" revision="cm-14.1" remote="github" />
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" revision="cm-14.1" remote="github" />

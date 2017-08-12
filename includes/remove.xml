@@ -69,6 +69,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/e2fsprogs" />
