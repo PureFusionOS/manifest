@@ -13,7 +13,6 @@
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider"  remote="fusion" />
   <project path="art" name="PureFusionOS/android_art" remote="fusion" />
   <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" />
-  <project path="vendor/gapps" name="aosnp/android_vendor_gapps" remote="bb" clone-depth="1" revision="n-mr2" />
   <project path="build/blueprint" name="PureFusionOS/android_build_blueprint" remote="fusion" />
   <project path="build/kati" name="PureFusionOS/android_build_kati" remote="fusion" />
   <project path="build/soong" name="PureFusionOS/android_build_soong" remote="fusion" >
