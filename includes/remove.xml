@@ -81,6 +81,7 @@
   <remove-project name="platform/external/libunwind_llvm" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/vulkan-validation-layers" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />

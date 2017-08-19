@@ -52,6 +52,7 @@
   <project path="external/libunwind_llvm" name="PureFusionOS/android_external_libunwind_llvm" remote="fusion" />
   <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion" />
   <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" />
+  <project path="external/vulkan-validation-layers" name="PureFusionOS/android_external_vulkan-validation-layers" remote="fusion" />
   <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" />
   <project path="external/wpa_supplicant_8" name="PureFusionOS/android_external_wpa_supplicant_8" remote="fusion" />
 
