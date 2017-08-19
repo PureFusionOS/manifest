@@ -49,6 +49,7 @@
   <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
   <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" />
   <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
+  <project path="external/libunwind_llvm" name="PureFusionOS/android_external_libunwind_llvm" remote="fusion" />
   <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion" />
   <project path="external/sqlite" name="PureFusionOS/android_external_sqlite" remote="fusion" />
   <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" />
