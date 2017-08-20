@@ -50,6 +50,7 @@
   <!-- External -->
   <project path="external/chromium-webview" name="PureFusionOS/android_external_chromium-webview" remote="fusion" />
   <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
+  <project path="external/expat" name="PureFusionOS/android_external_expat" remote="fusion" />
   <project path="external/libjpeg-turbo" name="PureFusionOS/android_external_libjpeg-turbo" remote="fusion" />
   <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
   <project path="external/libunwind_llvm" name="PureFusionOS/android_external_libunwind_llvm" remote="fusion" />
