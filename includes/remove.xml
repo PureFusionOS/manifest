@@ -78,6 +78,7 @@
   <remove-project name="platform/external/ipsec-tools" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libunwind_llvm" />
   <remove-project name="platform/external/skia" />
