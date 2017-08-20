@@ -126,7 +126,8 @@
   <!-- GCC UBER PREBUILTS -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="aosnp/aarch64-linux-android-7.x" remote="bb" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" name="aosnp/aarch64-linux-android-8.x" remote="bb" />
+<!--  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" name="aosnp/aarch64-linux-android-8.x" remote="bb" /> -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" name="xanaxdroid/aarch64-8.0" remote="bb" revision="linaro" clone-depth="1" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="aosnp/arm-linux-androideabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x" name="aosnp/arm-linux-androideabi-5.x" remote="bb" />
@@ -135,6 +136,8 @@
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/4.0" name="uberroms/clang_linux-x86_4.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/6.0" name="xanaxdroid/dragontc-6.0" groups="pdk,linux" revision="dragon-tc" remote="bb" />
+
 
 
   <project name="aosnp/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" />
