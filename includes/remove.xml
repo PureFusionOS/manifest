@@ -4,18 +4,22 @@
   <remove-project name="proprietary_vendor_huawei" />
   <remove-project name="proprietary_vendor_lge" />
   <remove-project name="proprietary_vendor_moto" />
+  
   <remove-project name="android_kernel_huawei_angler" />
   <remove-project name="android_kernel_lge_bullhead" />
   <remove-project name="android_kernel_moto_shamu" />
   <remove-project name="android_kernel_google_dragon" />
   <remove-project name="android_kernel_google_marlin" />
+  
   <remove-project name="android_device_huawei_angler" />
   <remove-project name="android_device_lge_bullhead" />
   <remove-project name="android_device_moto_shamu" />
   <remove-project name="android_device_google_dragon" />
   <remove-project name="android_device_google_marlin" />
+  
   <remove-project name="android_build" />
   <remove-project name="android_vendor_pure" />
+  
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_packages_providers_MediaProvider" />
@@ -38,9 +42,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/external/clang" />
-  <remove-project name="platform/external/compiler-rt" />
-  <remove-project name="platform/external/llvm" />
+
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/frameworks/opt/chips" />
@@ -52,8 +54,7 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/external/libchrome" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
+  
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
@@ -69,6 +70,8 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  
+  
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/tinycompress" />
@@ -85,10 +88,18 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/vulkan-validation-layers" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/libchrome" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/compiler-rt" />
+  <remove-project name="platform/external/llvm" />
+  
+  
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/misc" />
+  
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/libcore" />
