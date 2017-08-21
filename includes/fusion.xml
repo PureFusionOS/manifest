@@ -21,27 +21,30 @@
   </project>
   <project path="development" name="PureFusionOS/android_development" remote="fusion" />
 
-  <!-- System  -->
+  <!-- Vendor -->
   <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" />
+
+  <!-- System  -->
   <project path="system/bt" name="PureFusionOS/android_system_bt" remote="fusion" />
   <project path="system/core" name="PureFusionOS/android_system_core" remote="fusion" />
   <project path="system/extras" name="PureFusionOS/android_system_extras" remote="fusion" />
+  <project path="system/media" name="PureFusionOS/android_system_media" remote="fusion" />
   <project path="system/sepolicy" name="PureFusionOS/android_system_sepolicy" remote="fusion" />
   <project path="system/vold" name="PureFusionOS/android_system_vold" remote="fusion" />
-  <project path="system/media" name="PureFusionOS/android_system_media" remote="fusion" />
+  <!-- Build Project Section -->
   <project path="build" name="PureFusionOS/android_build" remote="fusion">
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="PureFusionOS/android_frameworks_av" remote="fusion" />
-  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" />
-  <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
+  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" remote="fusion" />
   <project path="frameworks/opt/chips" name="PureFusionOS/android_frameworks_opt_chips" remote="fusion" />
-  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" />
   <project path="frameworks/opt/net/ims" name="PureFusionOS/android_frameworks_opt_net_ims" remote="fusion" />
   <project path="frameworks/opt/net/wifi" name="PureFusionOS/android_frameworks_opt_net_wifi" remote="fusion" />
+  <project path="frameworks/opt/telephony" name="PureFusionOS/android_frameworks_opt_telephony" remote="fusion" />
+  <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" />
   <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" remote="fusion" />
 
   <!-- External -->
@@ -86,29 +89,31 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/camera" name="PureFusionOS/platform_hardware_qcom_camera" remote="fusion" />
-  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
   <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" remote="fusion" />
   <project path="hardware/ril" name="PureFusionOS/android_hardware_ril" remote="fusion" />
   <project path="hardware/ril-caf" name="PureFusionOS/android_hardware_ril" remote="fusion" revision="n-mr2-caf" />
+  <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
 
   <!-- Apps -->
-  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
-  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion"/>
-  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion"/>
-  <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion"/>
-  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
-  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" remote="fusion" />
-  <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" />
   <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-fs" remote="fusion" />
-  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" />
-  <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" />
   <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" groups="pdk-fs" remote="fusion" />
-  <project path="packages/apps/Matlog" name="PureFusionOS/android_packages_apps_Matlog" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion"/>
   <project path="packages/apps/FMRadio" name="PureFusionOS/android_packages_apps_FMRadio" remote="fusion" />
+  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
   <project path="packages/apps/Gallery2" name="PureFusionOS/android_packages_apps_Gallery2" remote="fusion" />
-  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" />
+  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/Matlog" name="PureFusionOS/android_packages_apps_Matlog" groups="pdk-fs" remote="fusion" />
+  <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" groups="pdk-fs" remote="fusion" />
   <project path="packages/apps/Nfc" name="PureFusionOS/android_packages_apps_Nfc" remote="fusion" />
+  <project path="packages/apps/OmniStyle" name="PureFusionOS/android_packages_apps_OmniStyle" remote="fusion" />
+  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
+  <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion"/>
+  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion"/>
+  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" remote="fusion" />
+  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" />
 
+  <!-- Services -->
   <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
 
   <!-- Prebuilts -->
