@@ -59,6 +59,7 @@
   <project path="external/vulkan-validation-layers" name="PureFusionOS/android_external_vulkan-validation-layers" remote="fusion" />
   <project path="external/zlib" name="PureFusionOS/android_external_zlib" remote="fusion" />
   <project path="external/wpa_supplicant_8" name="PureFusionOS/android_external_wpa_supplicant_8" remote="fusion" />
+  <project path="external/busybox" name="PureFusionOS/android_external_busybox" remote="fusion" />
 
   <!-- External LineageOS-->
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" revision="cm-14.1" remote="github" />
@@ -112,9 +113,21 @@
   <project path="packages/apps/PureSettings" name="PureFusionOS/android_packages_apps_PureSettings" groups="pdk-fs" remote="fusion"/>
   <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion"/>
   <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" remote="fusion" />
-  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" />
+  <project path="packages/apps/CellBroadcastReceiver" name="PureFusionOS/android_packages_apps_CellBroadcastReceiver" remote="fusion" />
+  <project path="packages/apps/Contacts" name="PureFusionOS/android_packages_apps_Contacts" remote="fusion" />
+  <project path="packages/apps/ContactsCommon" name="PureFusionOS/android_packages_apps_ContactsCommon" remote="fusion" />
+  <project path="packages/apps/ExactCalculator" name="PureFusionOS/android_packages_apps_ExactCalculator" remote="fusion" />
+  <project path="packages/apps/PackageInstaller" name="PureFusionOS/android_packages_apps_PackageInstaller" remote="fusion" />
+  <project path="packages/apps/PhoneCommon" name="PureFusionOS/android_packages_apps_PhoneCommon" remote="fusion" />
+
+  <!-- Providers -->
+  <project path="packages/providers/DownloadProvider" name="PureFusionOS/android_packages_providers_DownloadProvider" remote="fusion" />
+
+  <!-- Input Methods -->
+  <project path="packages/inputmethods/LatinIME" name="PureFusionOS/android_packages_inputmethods_LatinIME" remote="fusion" />
 
   <!-- Services -->
+  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" remote="fusion" />
   <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
 
   <!-- Prebuilts -->
