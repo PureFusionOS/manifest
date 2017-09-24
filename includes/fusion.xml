@@ -13,6 +13,7 @@
   <project path="packages/providers/MediaProvider" name="PureFusionOS/android_packages_providers_MediaProvider"  remote="fusion" />
   <project path="art" name="PureFusionOS/android_art" remote="fusion" />
   <project path="bionic" name="PureFusionOS/android_bionic" remote="fusion" />
+  <project path="ndk" name="PureFusionOS/android_ndk" remote="fusion" />
   <project path="build/blueprint" name="PureFusionOS/android_build_blueprint" remote="fusion" />
   <project path="build/kati" name="PureFusionOS/android_build_kati" remote="fusion" />
   <project path="build/soong" name="PureFusionOS/android_build_soong" remote="fusion" >

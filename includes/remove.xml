@@ -60,4 +60,5 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/ndk" />
 </manifest>
