@@ -145,6 +145,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="aosnp/arm-eabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="aosnp/arm-linux-androideabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="aosnp/arm-linux-androideabi-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="aosnp/arm-linux-androideabi-7.x" remote="bb" />
 
   <!-- CLANG UBER PREBUILDS -->
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
