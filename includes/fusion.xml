@@ -133,15 +133,16 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/misc" name="PureFusionOS/android_prebuilts_misc" remote="fusion" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureFusionOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="fusion" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureFusionOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="fusion" clone-depth="1" />
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
 
   <!-- GCC UBER PREBUILTS -->
+ <!-- aarch64 --> 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aosnp/aarch64-linux-android-6.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="aosnp/aarch64-linux-android-7.x" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x" name="aosnp/aarch64-linux-android-8.x" remote="bb" />
 
+ <!-- arm32 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="aosnp/arm-eabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="aosnp/arm-linux-androideabi-4.9" remote="bb" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="aosnp/arm-linux-androideabi-6.x" remote="bb" />
 
