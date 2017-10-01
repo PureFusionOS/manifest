@@ -133,6 +133,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/misc" name="PureFusionOS/android_prebuilts_misc" remote="fusion" clone-depth="1" />
+  <project path="prebuilts/ninja/linux-x86" name="PureFusionOS/android_prebuilts_ninja" remote="fusion" revision="master" clone-depth="1" />
   <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
 
   <!-- GCC UBER PREBUILTS -->
