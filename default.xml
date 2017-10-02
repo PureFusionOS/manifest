@@ -12,14 +12,11 @@
 
   <remote name="fusion"
           fetch="https://github.com/"
-          revision="o"
+          revision="pf-o"
           review="review.purefusionos.com" />
 
   <remote name="voxpopuli"
           fetch="https://github.com/EAS-Project"  />
-
-  <remote name="AOSNP"
-          fetch="https://github.com/AOSNP-CAF" />
 
   <remote name="bb"
           fetch="https://bitbucket.org/"
@@ -27,7 +24,7 @@
 
   <remote name="FusionDevices"
           fetch="https://github.com/"
-          revision="o"
+          revision="pf-o"
           review="review.purefusionos.com" />
 
   <remote name="gitlab"
