@@ -14,6 +14,8 @@
   <project path="build/kati" name="PureFusionOS/android_build_kati" groups="pdk,tradefed" remote="fusion" />
   <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
   <project path="manifest" name="PureFusionOS/manifest" remote="fusion" />
-  <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" />
+  <project path="vendor/pure" name="android_vendor_pure" remote="fusion" >
+    <linkfile src="build.sh" dest="build.sh" />
+  </project>
 
 </manifest>
