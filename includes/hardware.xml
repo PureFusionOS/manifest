@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" revision="lineage-15.0" remote="github" />
+  <project path="hardware/broadcom/libbt" name="DirtyUnicorns/android_hardware_broadcom_libbt" revision="o8x" remote="github" />
+  <project path="hardware/broadcom/wlan" name="DirtyUnicorns/android_hardware_broadcom_wlan" revision="o8x" remote="github" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0" remote="github" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8084" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8916" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8937" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8952" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8960" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8974" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8994" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8996" remote="github" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8998" remote="github" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" revision="lineage-15.0-caf" remote="github" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0" remote="github" />
+  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8084" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8916" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8937" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8952" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8960" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8974" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8994" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8996" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" revision="lineage-15.0-caf-8998" remote="github" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="lineage-15.0" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="github" revision="lineage-15.0" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="github" revision="lineage-15.0" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0" remote="github" />
+  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8084" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8916" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8937" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8952" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8960" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8974" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8994" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8996" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8998" remote="github" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-15.0" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-15.0-caf" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="lineage-15.0" remote="github" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" revision="lineage-15.0" remote="github" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-15.0" remote="github" />
+  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" revision="lineage-15.0" remote="github" />
+  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" revision="lineage-15.0" remote="github" />
+
+</manifest>
