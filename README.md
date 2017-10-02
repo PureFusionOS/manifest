@@ -10,7 +10,7 @@ To build PureFusion from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureFusionOS/manifest.git -b o
+	repo init -u https://github.com/PureFusionOS/manifest.git -b pf-o
 
 Then to sync up:
 
@@ -22,12 +22,12 @@ Then to sync up:
 
 
         $ echo "export USE_CCACHE=1" >> ~/.bashrc
-      
+
         $ prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
      -M 50G
 The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.    
-   
+
 
 After syncing is done, do one of the following to build:
 
