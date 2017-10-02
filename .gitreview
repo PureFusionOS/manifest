@@ -1,4 +1,4 @@
 [gerrit]
 host=review.purefusionos.com
 port=29418
-defaultbranch=o
+defaultbranch=pf-o
