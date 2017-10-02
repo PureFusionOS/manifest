@@ -18,4 +18,6 @@
     <linkfile src="build.sh" dest="build.sh" />
   </project>
 
+  <!-- Apps -->
+ <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
 </manifest>
