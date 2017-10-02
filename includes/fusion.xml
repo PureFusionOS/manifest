@@ -12,7 +12,7 @@
    <linkfile src="tools" dest="build/tools" />
 </project>
   <project path="build/kati" name="PureFusionOS/android_build_kati" groups="pdk,tradefed" remote="fusion" />
-  <project path="build/soong" name="PureFusionOS/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="PureFusionOS/android_build_soong" groups="pdk,tradefed" remote="fusion" >
   <linkfile src="root.bp" dest="Android.bp" />
   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
