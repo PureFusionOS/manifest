@@ -6,15 +6,15 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-		   
+
   <remote name="pure"
-           fetch="https://github.com/PureNexusProject/" /> 
-		   
+           fetch="https://github.com/PureNexusProject/" />
+
   <remote name="fusion"
           fetch="https://github.com/"
           revision="o"
-          review="review.purefusionos.com" /> 
-		  
+          review="review.purefusionos.com" />
+
   <remote name="voxpopuli"
           fetch="https://github.com/EAS-Project"  />
 
@@ -29,10 +29,10 @@
           fetch="https://github.com/"
           revision="o"
           review="review.purefusionos.com" />
-		  
+
   <remote name="gitlab"
            fetch="https://gitlab.com/PureNexus/" />
-		   
+
   <default revision="refs/tags/android-8.0.0_r4"
            remote="aosp"
            sync-c="true"
@@ -573,8 +573,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-  
+
   <!-- PureFusionOS repos -->
   <include name="includes/fusion.xml" />
-
+  <include name="includes/pure.xml" />
 </manifest>
