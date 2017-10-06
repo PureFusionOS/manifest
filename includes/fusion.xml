@@ -11,6 +11,7 @@
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
  </project>
+ <project path="bionic" name="PureFusionOS/android_bionic" groups="pdk" remote="fusion" />
  <project path="build/kati" name="PureFusionOS/android_build_kati" groups="pdk,tradefed" remote="fusion" />
  <project path="build/soong" name="PureFusionOS/android_build_soong" groups="pdk,tradefed" remote="fusion" >
    <linkfile src="root.bp" dest="Android.bp" />
