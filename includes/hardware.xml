@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Temporary - Until roomservice is brought up for O -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" remote="github" />
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="lineage-15.0" remote="github" />
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" revision="lineage-15.0" remote="github" />
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" revision="lineage-15.0" remote="github" />
+
   <!-- Hardware -->
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" revision="lineage-15.0" remote="github" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0" remote="github" />
