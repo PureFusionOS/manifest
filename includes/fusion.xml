@@ -29,6 +29,9 @@
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" />
 
+ <!-- QCOM -->
+ <project path="device/qcom/sepolicy" name="PureFusionOS/android_device_qcom_sepolicy" remote="fusion" />
+
  <!-- External -->
  <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
 
