@@ -4,4 +4,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-15.0"/>
   <project path="system/netd" name="LineageOS/android_system_netd" revision="lineage-15.0" remote="github" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-15.0" remote="github" />
+
+  <!-- External -->
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" revision="lineage-15.0" remote="github" /> 
 </manifest>
