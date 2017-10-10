@@ -39,4 +39,8 @@
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
 
+ <!-- Media -->
+ <project path="hardware/qcom/media-caf/msm8996" name="PureFusionOS/android_hardware_qcom_media" revision="pf-o-caf-8996" remote="fusion" />
+ <project path="hardware/qcom/media-caf/msm8998" name="PureFusionOS/android_hardware_qcom_media" revision="pf-o-caf-8998" remote="fusion" />
+
 </manifest>
