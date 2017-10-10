@@ -12,7 +12,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" revision="lineage-15.0" remote="github" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0" remote="github" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0" remote="github" />
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8084" remote="github" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8916" remote="github" />
   <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.0-caf-8952" remote="github" />
