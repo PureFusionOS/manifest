@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Our Hardware -->
+  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" groups="pdk" remote="fusion" />
+
   <!-- Temporary - Until roomservice is brought up for O -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.0" remote="github" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" revision="lineage-15.0" remote="github" />
