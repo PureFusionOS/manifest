@@ -39,4 +39,17 @@
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
 
+ <!-- GCC PREBUILTS -->
+ <!-- aarch64 --> 
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureFusionOS/aarch64-linux-android-4.9" remote="bb" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="PureFusionOS/aarch64-linux-android-6.x" remote="bb" />
+
+ <!-- arm32 -->
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="PureFusionOS/arm-eabi-4.9" remote="bb" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="PureFusionOS/arm-linux-androideabi-4.9" remote="bb" />  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="PureFusionOS/arm-linux-androideabi-6.x" remote="bb" />
+
+ <!-- CLANG UBER PREBUILDS -->
+ <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />  <project path="prebuilts/clang/host/linux-x86/6.0" name="PureFusionOS/clang_linux-x86_6.x" remote="bb" />
+
+ <project name="PureFusionOS/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" />
 </manifest>
