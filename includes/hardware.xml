@@ -39,6 +39,7 @@
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" revision="lineage-15.0-caf-8998" remote="github" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-15.0" remote="github" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-15.0-caf" remote="github" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" revision="lineage-15.0" remote="github" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="lineage-15.0" remote="github" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-15.0" remote="github" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" revision="lineage-15.0" remote="github" />
