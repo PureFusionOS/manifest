@@ -18,6 +18,7 @@
  </project>
  <project path="art" name="PureFusionOS/android_art" groups="pdk" remote="fusion" />
  <project path="bionic" name="PureFusionOS/android_bionic" groups="pdk" remote="fusion" />
+ <project path="system/core" name="PureFusionOS/android_system_core" groups="pdk" />
  <project path="frameworks/base" name="PureFusionOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" groups="pdk" remote="fusion" />
@@ -40,7 +41,7 @@
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
 
  <!-- GCC PREBUILTS -->
- <!-- aarch64 --> 
+ <!-- aarch64 -->
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureFusionOS/aarch64-linux-android-4.9" remote="bb" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="PureFusionOS/aarch64-linux-android-6.x" remote="bb" />
 
