@@ -3,6 +3,9 @@
 
   <!-- Our Hardware -->
   <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" groups="pdk" remote="fusion" />
+  <project path="hardware/fusion/interfaces" name="PureFusionOS/android_hardware_fusion_interfaces" remote="fusion" >
+    <copyfile dest="hardware/fusion/Android.bp" src="Android.bp"/>
+  </project>
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="GZOSP/hardware_interfaces" groups="pdk" remote="github" revision="8.0"/>
