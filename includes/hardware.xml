@@ -56,4 +56,7 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 
+  <!-- Ril -->
+  <project path="hardware/ril" name="GZOSP/hardware_ril" groups="pdk" remote="github" revision="8.0" />
+  <project path="hardware/ril-caf" name="GZOSP/hardware_ril" groups="pdk" remote="github" revision="8.0-caf" />
 </manifest>
