@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS repos (will be forked and removed in future -->
-  <project path="vendor/qcom/opensource/cryptfs_hw/" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-15.0"/>
   <project path="system/netd" name="LineageOS/android_system_netd" revision="lineage-15.0" remote="github" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-15.0" remote="github" />
 
   <!-- External -->
 
