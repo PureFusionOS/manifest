@@ -522,7 +522,6 @@
 
   <!-- PureFusionOS repos -->
   <include name="includes/fusion.xml" />
-  <include name="includes/pure.xml" />
   <include name="includes/hardware.xml" />
   <include name="includes/misc.xml" />
 </manifest>

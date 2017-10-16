@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
- <!-- PureNexus - To Be Removed After Everything Is Working/building -->
- <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="gitlab" revision="o" />
-</manifest>
