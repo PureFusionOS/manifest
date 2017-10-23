@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS repos (will be forked and removed in future -->
-  <project path="system/netd" name="LineageOS/android_system_netd" revision="lineage-15.0" remote="github" />
 
   <!-- External -->
 
