@@ -30,6 +30,8 @@
  <project path="frameworks/support" name="PureFusionOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="frameworks/native" name="PureFusionOS/android_frameworks_native" groups="pdk" remote="fusion" />
  <project path="frameworks/av" name="PureFusionOS/android_frameworks_av" groups="pdk" remote="fusion" />
+ <project path="frameworks/compile/libbcc" name="PureFusionOS/android_frameworks_compile_libbcc" remote="fusion" />
+ <project path="frameworks/rs" name="PureFusionOS/android_frameworks_rs" remote="fusion" />
 
  <!-- System -->
  <project path="system/core" name="PureFusionOS/android_system_core" groups="pdk" remote="fusion"/>
