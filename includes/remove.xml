@@ -6,6 +6,7 @@
   <remove-project name="device/generic/car" />
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libunwind_llvm" />
