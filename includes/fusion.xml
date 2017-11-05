@@ -65,6 +65,7 @@
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
  <project path="external/libunwind_llvm" name="PureFusionOS/android_external_libunwind_llvm" groups="pdk" remote="fusion" />
+ <project path="external/v8" name="PureFusionOS/android_external_v8" groups="pdk" remote="fusion" />
 
  <!-- GCC PREBUILTS -->
  <!-- aarch64 -->
