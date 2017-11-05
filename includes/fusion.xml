@@ -89,5 +89,7 @@
   <project path="prebuilts/clang/host/linux-x86/6.0" name="PureFusionOS/clang_linux-x86_6.x" remote="bb" />
 <!--  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" /> -->
 
- <project name="PureFusionOS/aarch64_Snapdragon_LLVM" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="bb" revision="clang_3.8-gcc_6.x" />
+  <!-- QualComm Snapdragon SDClang -->
+<!-- <project name="PureFusionOS/proprietary_vendor_qcom_sdclang-3.8.0_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="fusion" /> -->
+ <project name="PureFusionOS/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="fusion" />
 </manifest>
