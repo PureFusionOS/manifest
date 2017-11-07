@@ -67,6 +67,7 @@
 
  <!-- External -->
  <project path="external/busybox" name="PureFusionOS/android_external_busybox" remote="fusion" />
+ <project path="external/toybox" name="PureFusionOS/android_external_toybox" groups="pdk" remote="fusion" />
  <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
  <project path="external/exfat" name="PureFusionOS/android_external_exfat" remote="fusion" />
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
