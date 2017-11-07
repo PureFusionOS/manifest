@@ -7,7 +7,6 @@
   <!-- github -->
  <project path="external/connectivity" name="GZOSP/external_connectivity" groups="pdk" remote="github" revision="8.0" />
  <project path="external/ebtables" name="GZOSP/external_ebtables" groups="pdk" remote="github" revision="8.0"  />
- <project path="external/exfat" name="GZOSP/external_exfat" remote="github" revision="8.0"  />
  <project path="external/fuse" name="GZOSP/external_fuse" remote="github" revision="8.0"  />
  <project path="external/htop" name="GZOSP/external_htop" remote="github" revision="8.0"  />
  <project path="external/json-c" name="GZOSP/external_json-c" remote="github" revision="8.0"  />
