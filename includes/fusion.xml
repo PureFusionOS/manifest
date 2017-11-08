@@ -52,6 +52,7 @@
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
+ <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" remote="fusion" />
  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" groups="pdk-fs" remote="fusion" />
