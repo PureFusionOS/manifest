@@ -90,9 +90,7 @@
 
   <!-- CLANG UBER PREBUILDS -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="fusion" />
-  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/6.0" name="PureFusionOS/clang_linux-x86_6.x" remote="bb" />
-<!--  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" /> -->
 
   <!-- QualComm Snapdragon SDClang -->
 <!-- <project name="PureFusionOS/proprietary_vendor_qcom_sdclang-3.8.0_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="fusion" /> -->
