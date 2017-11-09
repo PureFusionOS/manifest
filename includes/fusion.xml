@@ -89,6 +89,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="PureFusionOS/arm-linux-androideabi-7.x" remote="bb" />
 
   <!-- CLANG UBER PREBUILDS -->
+  <project path="prebuilts/clang/host/linux-x86" name="PureFusionOS/android_prebuilts_clang_host_linux-x86" remote="fusion" />
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/6.0" name="PureFusionOS/clang_linux-x86_6.x" remote="bb" />
 <!--  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" /> -->
