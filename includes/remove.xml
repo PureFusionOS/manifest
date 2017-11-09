@@ -38,6 +38,7 @@
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telephony" />
