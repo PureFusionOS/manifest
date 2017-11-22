@@ -8,6 +8,7 @@
   </project>
 
   <!-- Hardware -->
+  <project path="hardware/broadcom/libbt" name="GZOSP/hardware_broadcom_libbt" groups="pdk" remote="github" revision="8.0" />
   <project path="hardware/interfaces" name="GZOSP/hardware_interfaces" groups="pdk" remote="github" revision="8.0"/>
   <project path="hardware/libhardware_legacy" name="GZOSP/hardware_libhardware_legacy" groups="pdk" remote="github" revision="8.0" />
 
