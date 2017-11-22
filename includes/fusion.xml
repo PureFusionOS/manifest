@@ -49,6 +49,7 @@
  <project path="packages/inputmethods/LatinIME" name="PureFusionOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="fusion" />
 
  <!-- Apps -->
+ <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="packages/apps/FusionReactor" name="PureFusionOS/android_packages_apps_FusionReactor" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" />
