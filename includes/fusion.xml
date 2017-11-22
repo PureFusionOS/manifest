@@ -50,6 +50,7 @@
 
  <!-- Apps -->
  <project path="packages/apps/FusionReactor" name="PureFusionOS/android_packages_apps_FusionReactor" groups="pdk-fs" remote="fusion" />
+ <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DUI" name="PureFusionOS/android_packages_apps_DUI" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
@@ -59,7 +60,7 @@
  <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" remote="fusion" />
  <project path="packages/apps/PackageInstaller" name="PureFusionOS/android_packages_apps_PackageInstaller" remote="fusion" />
  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" groups="pdk-fs" remote="fusion" />
- 
+
  <!-- Services -->
   <project path="packages/services/OmniJaws" name="PureFusionOS/android_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
   <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
