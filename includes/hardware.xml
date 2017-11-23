@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Our Hardware -->
- <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" groups="pdk" remote="fusion" />
- <project path="hardware/fusion/interfaces" name="PureFusionOS/android_hardware_fusion_interfaces" remote="fusion" >
-   <copyfile dest="hardware/fusion/Android.bp" src="Android.bp"/>
- </project>
+  <!-- Our Hardware -->
+  <project path="hardware/qcom/audio/default" name="PureFusionOS/android_hardware_qcom_audio" remote="fusion" />
+  <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" groups="pdk" remote="fusion" />
+  <project path="hardware/fusion/interfaces" name="PureFusionOS/android_hardware_fusion_interfaces" remote="fusion" >
+    <copyfile dest="hardware/fusion/Android.bp" src="Android.bp"/>
+  </project>
 
  <!-- Hardware -->
  <project path="hardware/broadcom/libbt" name="GZOSP/hardware_broadcom_libbt" groups="pdk" remote="github" revision="8.0" />
@@ -13,7 +14,6 @@
  <project path="hardware/libhardware_legacy" name="GZOSP/hardware_libhardware_legacy" groups="pdk" remote="github" revision="8.0" />
 
  <!-- HardWare QCOM -->
- <project path="hardware/qcom/audio/default" name="GZOSP/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="8.0" />
  <project path="hardware/qcom/audio-caf/apq8084" name="GZOSP/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="8.0-caf-8084" />
  <project path="hardware/qcom/audio-caf/msm8916" name="GZOSP/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="8.0-caf-8916" />
  <project path="hardware/qcom/audio-caf/msm8937" name="GZOSP/hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="8.0-caf-8937" />
