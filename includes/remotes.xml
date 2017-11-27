@@ -3,9 +3,6 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
 
   <remote name="pure"
            fetch="https://github.com/PureNexusProject/" />
