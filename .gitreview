@@ -1,0 +1,4 @@
+[gerrit]
+host=review.purefusionos.com
+port=29418
+defaultbranch=pf-o-r34-rebase
