@@ -619,4 +619,11 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- PureFusionOS repos -->
+  <include name="includes/remotes.xml" />
+  <include name="includes/remove.xml" />
+  <include name="includes/fusion.xml" />
+  <include name="includes/hardware.xml" />
+  <include name="includes/misc.xml" />
+
 </manifest>
