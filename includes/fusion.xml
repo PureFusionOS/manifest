@@ -21,7 +21,7 @@
  <project path="bionic" name="PureFusionOS/android_bionic" groups="pdk" remote="fusion" revision="pf-o-r34-rebase" />
  <project path="bootable/recovery" name="PureFusionOS/android_bootable_recovery" groups="pdk" remote="fusion" revision="pf-o-r34-rebase" />
  <project path="manifest" name="PureFusionOS/manifest" remote="fusion" revision="pf-o-r34-rebase" />
- <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" >
+ <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" revision="pf-o-r34-rebase" >
     <linkfile src="build.sh" dest="build.sh" />
  </project>
 
