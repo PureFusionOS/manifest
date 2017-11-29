@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote name="pure"
+           fetch="https://github.com/PureNexusProject/" />
+
+  <remote name="fusion"
+          fetch="https://github.com/"
+          revision="pf-o"
+          review="review.purefusionos.com" />
+
+  <remote name="voxpopuli"
+          fetch="https://github.com/EAS-Project"  />
+
+  <remote name="bb"
+          fetch="https://bitbucket.org/"
+          revision="refs/heads/master" />
+
+  <remote name="FusionDevices"
+          fetch="https://github.com/"
+          revision="pf-o"
+          review="review.purefusionos.com" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/PureNexus/" />
+
+</manifest>
