@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
   <default revision="refs/tags/android-8.0.0_r32"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -598,5 +600,12 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- PureFusionOS repos -->
+  <include name="includes/remotes.xml" />
+  <include name="includes/remove.xml" />
+  <include name="includes/fusion.xml" />
+  <include name="includes/hardware.xml" />
+  <include name="includes/misc.xml" />
 
 </manifest>
