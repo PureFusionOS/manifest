@@ -105,7 +105,7 @@
  <project path="prebuilts/clang/host/linux-x86/6.0" name="PureFusionOS/clang_linux-x86_6.x" remote="bb" />
 
  <!-- QualComm Snapdragon SDClang -->
-<!-- <project name="PureFusionOS/proprietary_vendor_qcom_sdclang-3.8.0_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="fusion" /> -->
- <project name="PureFusionOS/proprietary_vendor_qcom_sdclang-4.0_linux-x86" path="vendor/qcom/sdclang-4.0/linux-x86" remote="fusion" />
+ <!--  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="PureFusionOS/proprietary_vendor_qcom_sdclang-3.8.0_linux-x86" remote="fusion" /> -->
+ <project path="vendor/qcom/sdclang-4.0/linux-x86" name="PureFusionOS/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="fusion" />
 
 </manifest>
