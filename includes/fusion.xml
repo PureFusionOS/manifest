@@ -82,6 +82,7 @@
  <project path="external/e2fsprogs" name="PureFusionOS/android_external_e2fsprogs" groups="pdk" remote="fusion" />
  <project path="external/DUtils" name="PureFusionOS/android_external_DUtils" remote="fusion" />
  <project path="external/ImageMagick" name="PureFusionOS/android_external_ImageMagick" remote="fusion" />
+ <project path="external/jemalloc" name="PureFusionOS/android_external_jemalloc" remote="fusion" />
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
  <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
