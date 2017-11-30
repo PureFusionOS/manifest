@@ -84,6 +84,7 @@
  <project path="external/ImageMagick" name="PureFusionOS/android_external_ImageMagick" remote="fusion" />
  <project path="external/libnetfilter_conntrack" name="PureFusionOS/android_external_libnetfilter_conntrack" groups="pdk" remote="fusion" />
  <project path="external/libnfnetlink" name="PureFusionOS/android_external_libnfnetlink" groups="pdk" remote="fusion" />
+ <project path="external/libpng" name="PureFusionOS/android_external_libpng" remote="fusion" />
  <project path="external/libunwind_llvm" name="PureFusionOS/android_external_libunwind_llvm" groups="pdk" remote="fusion" />
  <project path="external/skia" name="PureFusionOS/android_external_skia" remote="fusion"  />
  <project path="external/toybox" name="PureFusionOS/android_external_toybox" groups="pdk" remote="fusion" />
