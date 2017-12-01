@@ -7,7 +7,6 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/development" />
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/generic/arm64" />
