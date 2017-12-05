@@ -20,7 +20,7 @@
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
  <project path="libcore" name="PureFusionOS/android_libcore" remote="fusion" />
- <project path="manifest" name="PureFusionOS/manifest" remote="fusion" />
+ <project path="manifest" name="PureFusionOS/manifest" revision="pf-o-r34-rebase" remote="fusion" />
  <project path="vendor/pure" name="PureFusionOS/android_vendor_pure" remote="fusion" >
     <linkfile src="build.sh" dest="build.sh" />
  </project>
