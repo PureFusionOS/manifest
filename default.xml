@@ -605,6 +605,7 @@
   <include name="includes/remotes.xml" />
   <include name="includes/remove.xml" />
   <include name="includes/fusion.xml" />
+  <include name="includes/tools.xml"
   <include name="includes/hardware.xml" />
   <include name="includes/misc.xml" />
 
