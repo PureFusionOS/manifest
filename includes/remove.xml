@@ -41,8 +41,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/expat" />
-  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
