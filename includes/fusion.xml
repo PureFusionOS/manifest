@@ -68,6 +68,7 @@
 
  <!-- Services -->
  <project path="packages/services/OmniJaws" name="PureFusionOS/android_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
+ <project path="packages/services/Telecomm" name="PureFusionOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="packages/services/Telephony" name="PureFusionOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
 
  <!-- QCOM -->
