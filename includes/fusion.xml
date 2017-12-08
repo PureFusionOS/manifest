@@ -60,7 +60,7 @@
  <project path="packages/apps/FusionStats" name="PureFusionOS/android_packages_apps_FusionStats" remote="fusion" />
  <project path="packages/apps/Launcher3" name="PureFusionOS/android_packages_apps_Launcher3" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/Messaging" name="PureFusionOS/android_packages_apps_Messaging" remote="fusion" />
- <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" remote="fusion" />
+ <project path="packages/apps/MusicFX" name="PureFusionOS/android_packages_apps_MusicFX" remote="fusion" revision="pf-o-test" />
  <project path="packages/apps/PackageInstaller" name="PureFusionOS/android_packages_apps_PackageInstaller" remote="fusion" />
  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
