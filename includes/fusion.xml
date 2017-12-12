@@ -65,6 +65,7 @@
  <project path="packages/apps/PureFusionOTA" name="PureFusionOS/android_packages_apps_PureFusionOTA" remote="fusion" />
  <project path="packages/apps/Settings" name="PureFusionOS/android_packages_apps_Settings" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/SnapdragonCamera" name="PureFusionOS/android_packages_apps_SnapdragonCamera" groups="pdk-fs" remote="fusion" />
+ <project path="packages/apps/DocumentsUI" name="PureFusionOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
 
  <!-- Services -->
  <project path="packages/services/OmniJaws" name="PureFusionOS/android_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
