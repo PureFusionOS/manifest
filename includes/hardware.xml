@@ -4,6 +4,8 @@
   <!-- Our Hardware -->
   <project path="hardware/qcom/audio/default" name="PureFusionOS/android_hardware_qcom_audio" remote="fusion" />
   <project path="hardware/qcom/audio-caf/msm8996" name="PureFusionOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="fusion" revision="pf-o-caf-8996" />
+  <project path="hardware/qcom/media" name="PureFusionOS/android_hardware_qcom_media" groups="qcom" remote="fusion" />
+  <project path="hardware/qcom/media-caf/msm8996" name="PureFusionOS/android_hardware_qcom_media" groups="qcom" remote="fusion" revision="pf-o-caf-8996" />
   <project path="hardware/libhardware" name="PureFusionOS/android_hardware_libhardware" groups="pdk" remote="fusion" />
   <project path="hardware/fusion/interfaces" name="PureFusionOS/android_hardware_fusion_interfaces" remote="fusion" >
     <copyfile dest="hardware/fusion/Android.bp" src="Android.bp"/>
@@ -33,7 +35,6 @@
  <project path="hardware/qcom/display-caf/msm8994" name="GZOSP/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="8.0-caf-8994" />
  <project path="hardware/qcom/display-caf/msm8996" name="GZOSP/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="8.0-caf-8996" />
  <project path="hardware/qcom/display-caf/msm8998" name="GZOSP/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="8.0-caf-8998" />
- <project path="hardware/qcom/media" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0" />
  <project path="hardware/qcom/media-caf/apq8084" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8084" />
  <project path="hardware/qcom/media-caf/msm8916" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8916" />
  <project path="hardware/qcom/media-caf/msm8937" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8937" />
@@ -41,7 +42,6 @@
  <project path="hardware/qcom/media-caf/msm8960" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8960" />
  <project path="hardware/qcom/media-caf/msm8974" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8974" />
  <project path="hardware/qcom/media-caf/msm8994" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8994" />
- <project path="hardware/qcom/media-caf/msm8996" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8996" />
  <project path="hardware/qcom/media-caf/msm8998" name="GZOSP/hardware_qcom_media" groups="qcom" remote="github" revision="8.0-caf-8998" />
  <project path="hardware/qcom/gps" name="GZOSP/hardware_qcom_gps" remote="github" revision="8.0" />
  <project path="hardware/qcom/bt" name="GZOSP/hardware_qcom_bt" remote="github" revision="8.0" />
