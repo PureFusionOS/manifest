@@ -51,6 +51,7 @@
 
  <!-- Apps -->
  <project path="packages/apps/Bluetooth" name="PureFusionOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
+ <project path="packages/apps/Calendar" name="PureFusionOS/android_packages_apps_Calendar" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
  <project path="packages/apps/Dialer" name="PureFusionOS/android_packages_apps_Dialer" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DeskClock" name="PureFusionOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="fusion" />
  <project path="packages/apps/DSPlibs" name="PureFusionOS/android_packages_apps_DSPlibs" remote="fusion" />
