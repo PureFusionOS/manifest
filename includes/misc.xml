@@ -20,7 +20,6 @@
  <!-- System -->
  <project path="system/hardware/interfaces" name="GZOSP/system_hardware_interfaces" groups="pdk" remote="github" revision="8.0" />
  <project path="system/hwservicemanager" name="GZOSP/system_hwservicemanager" remote="github" revision="8.0" />
- <project path="system/libhidl" name="GZOSP/system_libhidl" groups="pdk" remote="github" revision="8.0" />
  <project path="system/netd" name="GZOSP/system_netd" groups="pdk" remote="github" revision="8.0" />
  <project path="system/nfc" name="GZOSP/system_nfc" groups="pdk" remote="github" revision="8.0" />
 
