@@ -41,7 +41,7 @@
  <project path="system/sepolicy" name="PureFusionOS/android_system_sepolicy" groups="pdk" remote="fusion" />
  <project path="system/vold" name="PureFusionOS/android_system_vold" groups="pdk" remote="fusion" />
  <project path="system/libhidl" name="PureFusionOS/android_system_libhidl" groups="pdk" remote="fusion" />
-
+ <project path="system/hwservicemanager" name="PureFusionOS/android_system_hwservicemanager" remote="fusion" />
 
  <!-- Providers -->
  <project path="packages/providers/DownloadProvider" name="PureFusionOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="fusion" />
