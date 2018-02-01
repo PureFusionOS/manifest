@@ -17,10 +17,10 @@
  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="staging/lineage-15.1" />
 
  <!-- HardWare QCOM -->
- <project path="hardware/qcom/audio-caf/msm8998" name="UnicornioSucio//android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="o8x-caf-8998" />
- <project path="hardware/qcom/display" name="UnicornioSucio/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="o8x-caf" />
- <project path="hardware/qcom/display-caf/msm8996" name="UnicornioSucio/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="o8x-caf-8996" />
- <project path="hardware/qcom/display-caf/msm8998" name="UnicornioSucio/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="o8x-caf-8998" />
+ <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/lineage-15.1-caf-8996" />
+ <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/lineage-15.1" />
+ <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/lineage-15.1-caf-8996" />
+ <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/lineage-15.1-caf-8998" />
 
  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="github" revision="staging/lineage-15.1" />
  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="staging/lineage-15.1" />
