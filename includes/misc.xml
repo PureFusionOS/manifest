@@ -22,4 +22,8 @@
  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="github" revision="lineage-15.1" />
  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
 
+ <!-- QCOM -->
+ <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-15.1"/>
+ <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-15.1" />
+
 </manifest>
