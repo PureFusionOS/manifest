@@ -6,7 +6,7 @@
 
   <remote name="fusion"
           fetch="https://github.com/"
-          revision="pf-o-mr1"
+          revision="pf-o-mr1-staging"
           review="review.purefusionos.com" />
 
   <remote name="voxpopuli"
@@ -18,7 +18,7 @@
 
   <remote name="FusionDevices"
           fetch="https://github.com/"
-          revision="pf-o-mr1"
+          revision="pf-o-mr1-staging"
           review="review.purefusionos.com" />
 
 </manifest>

@@ -1,6 +1,9 @@
 PureFusion OS
 =====================
 
+BRANCH: pf-o-mr1-staging
+---------
+
 NOTE: THIS IS NOT READY. DO NOT SYNC THIS BRANCH
 ---------
 
@@ -13,7 +16,7 @@ To build PureFusion from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-        $ repo init -u https://github.com/PureFusionOS/manifest.git -b pf-o-mr1
+        $ repo init -u https://github.com/PureFusionOS/manifest.git -b pf-o-mr1-staging
 
 Then to sync up:
 
