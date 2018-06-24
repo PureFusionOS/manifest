@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote name="fusion"
+          fetch="https://github.com/"
+          revision="pf-o-mr1-staging"
+          review="review.purefusionos.com" />
+
+  <remote name="voxpopuli"
+          fetch="https://github.com/EAS-Project"  />
+
+  <remote name="bb"
+          fetch="https://bitbucket.org/"
+          revision="refs/heads/master" />
+
+  <remote name="FusionDevices"
+          fetch="https://github.com/"
+          revision="pf-o-mr1-staging"
+          review="review.purefusionos.com" />
+	  
+  <remote  name="los"
+           fetch="https://github.com/LineageOS" 
+           revision="refs/heads/lineage-15.1" />
+
+</manifest>
