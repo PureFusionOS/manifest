@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Our Hardware -->
+  <project path="hardware/bootctrl" name="PureFusionOS/android_hardware_bootctrl" groups="pdk" remote="fusion" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="lineage-15.1" />
