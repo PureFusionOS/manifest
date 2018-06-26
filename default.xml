@@ -629,5 +629,6 @@
   <include name="includes/fusion.xml" />
   <include name="includes/hardware.xml" />
   <include name="includes/misc.xml" />
+  <include name="includes/tools.xml" />
 
 </manifest>
