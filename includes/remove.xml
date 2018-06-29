@@ -50,6 +50,7 @@
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/libxml2" />
+    <remove-project name="platform/external/vixl" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/libbcc" />
